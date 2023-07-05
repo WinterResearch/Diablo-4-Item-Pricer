@@ -1,0 +1,38 @@
+Slot,Item Power,Level,Stat1 Type,Stat1 Value,Stat2 Type,Stat2 Value,Stat3 Type,Stat3 Value,Stat4 Type,Stat4 Value,DPS,Sold Value
+Pants,805,97,Damage Reduction Distance Enemies,17.5,Intelligence,37.0,Damage Reduction Close Enemies,12.5,Damage Reduction,5.5,805.0,7.0
+Wand,808,100,Intelligence,50.0,Core Skill Damage,13.5,Critical Strike Damage,20.5,Vulnerable Damage,19.5,1184.0,60.0
+Amulet,749,94,Conjuration Skill Damage,17.0,Ranks Devouring Blaze,2.0,Damage Reduction,6.7,Mana Cost Reduction,14.5,749.0,10.0
+Boots,757,100,Movement Speed,13.0,Ranks Frost Nova,3.0,Mana Cost Reduction,5.8,Ranks Teleport,3.0,378.0,15.0
+Amulet,754,100,Ranks Devouring Blaze,2.0,Ranks Defensive Skills,2.0,Cooldown Reduction,9.2,Ranks Conjuration Skills,2.0,754.0,350.0
+Helm,791,92,Lucky Hit Chance while Barrier,12.0,Maximum Life,331.0,Cooldown Reduction,10.0,Percent Total Armor,0.0,989.0,1.0
+Boots,782,98,Ranks Teleport,3.0,Ranks Frost Nova,3.0,Mana Cost Reduction,5.2,Movement Speed,0.0,391.0,2.0
+Ring,778,93,Critical Strike Chance,2.2,Critical Strike Damage,19.0,Vulnerable Damage,18.5,Resource Generation,0.0,778.0,1.0
+Amulet,655,86,Mana Cost Reduction,8.5,Ranks Defensive Skills,2.0,Ranks Devouring Blaze,2.0,Cooldown Reduction,0.0,655.0,65.0
+Helm,789,100,Cooldown Reduction,9.2,Maximum Life,504.0,Maximum Mana,0.0,Lucky Hit Chance while Barrier,12.0,789.0,40.0
+Gloves,242,24,Ranks Ice Shards,2.0,Critical Strike Chance,4.0,Attack Speed,4.0,Lucky Hit Chance Resource,4.0,24.0,24242.0
+Ring,780,77,Lightning Damage,11.0,Vulnerable Damage,22.5,Damage Chilled,7.0,Cold Damage,7.0,780.0,3.0
+Boots,739,84,Mana Cost Reduction,6.0,Movement Speed,12.0,Slow Duration,15.5,Ranks Teleport,3.0,739.0,30.0
+Boots,762,100,Ranks Teleport,3.0,Ranks Frost Nova,3.0,Mana Cost Reduction,4.4,Movement Speed After Elite,27.0,381.0,21.0
+Amulet,777,100,Ranks Devouring Blaze,2.0,Movement Speed,11.5,Cooldown Reduction,6.8,Strength,7.3,777.0,22.0
+Wand,749,80,Critical Strike Damage,17.5,Lucky Execute Elites,6.4,Vulnerable Damage,21.5,Core Skill Damage,16.0,939.0,5.0
+Gloves,768,95,Ranks Ice Shards,3.0,Critical Strike Chance,7.5,Lucky Hit Chance Resource,14.0,Ranks Chain Lightning,3.0,384.0,20.0
+Ring,777,77,Critical Strike Chance,5.0,Critical Strike Damage,20.0,Lightning Damage,16.5,Maximum Life,1.0,777.0,15.0
+Wand,807,100,Intelligence,53.0,Vulnerable Damage,22.0,Core Skill Damage,13.5,Critical Strike Damage,19.5,1180.0,35.0
+Wand,812,100,Intelligence,58.0,Vulnerable Damage,20.5,Core Skill Damage,19.5,Ultimate Skill Damage,21.0,1203.0,25.0
+Wand,816,100,Intelligence,62.0,Vulnerable Damage,23.5,Ultimate Skill Damage,16.5,Critical Strike Damage,20.5,1222.0,350.0
+Boots,786,91,Mana Cost Reduction,6.8,Ranks Teleport,2.0,Ranks Frost Nova,2.0,Slow Duration,1.0,393.0,10.0
+Ring,761,100,Resource Generation,12.0,Critical Strike Damage,20.5,Vulnerable Damage,18.5,Lightning Damage,7.0,761.0,10.0
+Amulet,777,85,Ranks Devouring Blaze,2.0,Cooldown Reduction,8.4,Damage Reduction Burning,14.5,Strength,4.3,777.0,125.0
+Amulet,795,100,Ranks Devouring Blaze,2.0,Ranks Defensive Skills,2.0,Mana Cost Reduction,15.0,Strength,7.0,795.0,370.0
+Amulet,751,99,Ranks Devouring Blaze,2.0,Ranks Defensive Skills,2.0,Damage Reduction,5.2,Thorns,566.0,751.0,26.0
+Ring,785,97,Barrier Generation,11.5,Overpower Damage,16.0,Critical Strike Damage,16.0,Vulnerable Damage,19.0,785.0,3.0
+Gloves,764,79,Attack Speed,10.0,Lucky Hit Chance,11.0,Intelligence,34.0,Ranks Ice Shards,3.0,764.0,40.0
+Wand,817,84,Damage Crowd,12.5,Critical Strike Damage,19.5,Basic Skill Damage,36.5,Vulnerable Damage,20.5,1227.0,50.0
+Focus,761,100,Lucky Hit Resource,12.5,Resource Generation,8.5,Mana Cost Reduction,6.0,Critical Strike Chance,5.0,985.0,15.0
+Ring,780,72,Life Regen,51.0,Resource Generation,11.5,Critical Strike Damage,15.5,Critical Strike Chance,3.0,780.0,5.0
+Amulet,760,97,Movement Speed,13.5,Ranks Devouring Blaze,1.0,Ranks Defensive Skills,2.0,Cooldown Reduction,9.6,780.0,80.0
+Gloves,764,79,Attack Speed,10.0,Lucky Hit Chance,11.0,Intelligence,34.0,Ranks Ice Shards,3.0,382.0,38.0
+Amulet,772,100,Cooldown Reduction,10.0,Movement Speed,14.5,Ranks Devouring Blaze,2.0,Thorns,30.0,772.0,150.0
+Ring,797,86,Damage Chilled,7.0,Vulnerable Damage,20.5,Critical Strike Damage,21.0,Maximum Mana,5.0,797.0,50.0
+Gloves,777,94,Lucky Hit Chance Resource,13.0,Ranks Ice Shards,3.0,Crit Strike Injured,6.0,Critical Strike Chance,8.0,777.0,70.0
+Helm,773,83,Percent Total Armor,4.9,Maximum Life,638.0,Cooldown Reduction,8.0,Maximum Mana,1.0,996.0,3.0

@@ -1,6 +1,5 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-#from model import add_item_to_database, main_stat_types
 from tkinter import messagebox
 import pandas as pd
 import os
@@ -11,27 +10,24 @@ main_stat_types = {
     'Gloves': ['Ranks Ice Shards', 'Critical Strike Chance', 'Attack Speed', 'Lucky Hit Chance Resource', 'Lucky Hit Chance', 'Ranks Chain Lightning', 'Intelligence', 'Crit Strike Injured'],
     'Pants': ['Damage Reduction Burning', 'Damage Reduction Close', 'Damage Reduction', 'Damage Reduction Distant', 'Percent Total Armor', 'Intelligence'],
     'Boots': ['Mana Cost Reduction', 'Ranks Frost Nova', 'Movement Speed', 'Ranks Teleport', 'Slow Duration', 'Movement Speed After Elite', 'all stats'],
-    'Wand': ['Critical Strike Damage', 'Vulnerable Damage', 'Intelligence', 'Core Skill Damage', 'Damage Close', 'Lucky Execute Elites', 'Ultimate Skill Damage', 'Basic Skill Damage', 'Damage Crowd'],
-    'Amulet': ['Cooldown Reduction', 'Mana Cost Reduction', 'Ranks Devouring Blaze', 'Ranks Defensive Skills', 'Damage Reduction Burning', 'Healing Received', 'Movement Speed', 'Strength', 'Damage Reduction', 'Thorns'],
+    'Wand': ['Critical Strike Damage', 'Vulnerable Damage', 'Intelligence', 'Core Skill Damage', 'Damage Close', 'Lucky Execute Elites', 'Ultimate Skill Damage', 'Basic Skill Damage', 'Damage Crowd', 'Damage Slowed', 'Damage Over Time'],
+    'Amulet': ['Cooldown Reduction', 'Mana Cost Reduction', 'Ranks Devouring Blaze', 'Ranks Defensive Skills', 'Damage Reduction Burning', 'Healing Received', 'Movement Speed', 'Strength', 'Damage Reduction', 'Thorns', 'Shock Skill Damage', 'Speed After Elite'],
     'Ring': ['Critical Strike Damage', 'Vulnerable Damage', 'Resource Generation', 'Critical Strike Chance', 'Maximum Mana', 'Damage Crowd', 'Lightning Damage', 'Damage Chilled', 'Cold Damage', 'Maximum Life', 'Barrier Generation', 'Overpower Damage', 'Life Regen', 'Lucky Hit Chance'],
     'Helm': ['Cooldown Reduction', 'Maximum Mana', 'Lucky Hit Chance while Barrier', 'Percent Total Armor', 'Maximum Life'],
     # Add the main stat types for the other slots
 }
 
-# Create an instance of Tk. This is our main window.
+
 root = tk.Tk()
 root.grid_columnconfigure(1, weight=1)
 
-# Set a title for the window
 root.title('Diablo MMO Item Pricer')
 
-# Define Tkinter variables
 slot_var = tk.StringVar()
 stat1_type_var = tk.StringVar()
 stat2_type_var = tk.StringVar()
 stat3_type_var = tk.StringVar()
 stat4_type_var = tk.StringVar()
-
 
 # Function to update stat type options
 def update_stat_type_options(*args):
@@ -174,7 +170,6 @@ def add_item_to_database(item_data, file_name):
     else:
         df.to_csv(file_name, index=False)
 
-
 # Slot
 slot_label = tk.Label(root, text='Slot')
 slot_label.grid(row=0, column=0)
@@ -253,11 +248,8 @@ sold_value_label.grid(row=12, column=0)
 sold_value_entry = tk.Entry(root)
 sold_value_entry.grid(row=12, column=1)
 
-# Create a submit button
-#submit_button = tk.Button(root, text="Submit", command=submit_item)
-#submit_button.grid(columnspan=2)
 price_option_button = tk.Button(root, text="Add to Pricing Options", command=add_item_to_pricing)
 price_option_button.grid(row=21,columnspan=2)
 
-# The mainloop method is what keeps the window on the screen.
+
 root.mainloop()

@@ -1,16 +1,15 @@
-# Importing pandas
 import pandas as pd
 
 # Define the main stat types for each slot
 main_stat_types = {
     'None': ['Cooldown Reduction', 'Maximum Mana', 'Lucky Hit Chance while Barrier', 'Percent Total Armor', 'Maximum Life'],
-    'Focus': ['Cooldown Reduction', 'Resource Generation', 'Mana Cost Reduction', 'Critical Strike Chance', 'Lucky Hit Resource'],
-    'Gloves': ['Ranks Ice Shards', 'Critical Strike Chance', 'Attack Speed', 'Lucky Hit Chance Resource', 'Lucky Hit Chance'],
-    'Pants': ['Damage Reduction Burning', 'Damage Reduction Close', 'Damage Reduction', 'Damage Reduction Distant', 'Percent Total Armor'],
-    'Boots': ['Mana Cost Reduction', 'Ranks Frost Nova', 'Movement Speed', 'Ranks Teleport'],
-    'Wand': ['Critical Strike Damage', 'Vulnerable Damage', 'Intelligence', 'Core Skill Damage', 'Damage Close'],
-    'Amulet': ['Cooldown Reduction', 'Mana Cost Reduction', 'Ranks Devouring Blaze', 'Ranks Defensive Skills', 'Damage Reduction Burning', 'Healing Received', 'Movement Speed'],
-    'Ring': ['Critical Strike Damage', 'Vulnerable Damage', 'Resource Generation', 'Critical Strike Chance', 'Maximum Mana', 'Damage Crowd', 'Lightning Damage', 'Damage Chilled', 'Cold Damage', 'Maximum Life'],
+    'Focus': ['Cooldown Reduction', 'Resource Generation', 'Mana Cost Reduction', 'Critical Strike Chance', 'Lucky Hit Resource', 'Crackling Damage'],
+    'Gloves': ['Ranks Ice Shards', 'Critical Strike Chance', 'Attack Speed', 'Lucky Hit Chance Resource', 'Lucky Hit Chance', 'Ranks Chain Lightning', 'Intelligence', 'Crit Strike Injured'],
+    'Pants': ['Damage Reduction Burning', 'Damage Reduction Close', 'Damage Reduction', 'Damage Reduction Distant', 'Percent Total Armor', 'Intelligence'],
+    'Boots': ['Mana Cost Reduction', 'Ranks Frost Nova', 'Movement Speed', 'Ranks Teleport', 'Slow Duration', 'Movement Speed After Elite', 'all stats'],
+    'Wand': ['Critical Strike Damage', 'Vulnerable Damage', 'Intelligence', 'Core Skill Damage', 'Damage Close', 'Lucky Execute Elites', 'Ultimate Skill Damage', 'Basic Skill Damage', 'Damage Crowd', 'Damage Slowed', 'Damage Over Time'],
+    'Amulet': ['Cooldown Reduction', 'Mana Cost Reduction', 'Ranks Devouring Blaze', 'Ranks Defensive Skills', 'Damage Reduction Burning', 'Healing Received', 'Movement Speed', 'Strength', 'Damage Reduction', 'Thorns', 'Shock Skill Damage', 'Speed After Elite'],
+    'Ring': ['Critical Strike Damage', 'Vulnerable Damage', 'Resource Generation', 'Critical Strike Chance', 'Maximum Mana', 'Damage Crowd', 'Lightning Damage', 'Damage Chilled', 'Cold Damage', 'Maximum Life', 'Barrier Generation', 'Overpower Damage', 'Life Regen', 'Lucky Hit Chance'],
     'Helm': ['Cooldown Reduction', 'Maximum Mana', 'Lucky Hit Chance while Barrier', 'Percent Total Armor', 'Maximum Life'],
     # Add the main stat types for the other slots
 }
@@ -85,14 +84,6 @@ print(items.describe())
 # Check for missing data
 print(items.isnull().sum())
 
-
-
-
-
-
-
-
-
 # Define a function that checks if an item has at least 3 of the 4 main stat types
 def has_main_stats(row):
     slot = row['Slot']
@@ -102,12 +93,6 @@ def has_main_stats(row):
 # Apply the function to each item and create a new binary column 'HasMainStats'
 items['HasMainStats'] = items.apply(has_main_stats, axis=1)
 
-
-
-
-
-
-
 # Importing required libraries
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OneHotEncoder
@@ -116,8 +101,6 @@ from sklearn.pipeline import Pipeline
 
 # Define numerical columns
 num_cols = ['Item Power', 'Level', 'Stat1 Value', 'Stat2 Value', 'Stat3 Value', 'Stat4 Value', 'DPS', 'HasMainStats']
-# Other preprocessing steps remain the same
-
 
 # Define categorical columns
 cat_cols = ['Slot', 'Stat1 Type', 'Stat2 Type', 'Stat3 Type', 'Stat4 Type']
@@ -180,7 +163,6 @@ mae = mean_absolute_error(y_val, predictions)
 
 print("Validation MAE: ", mae)
 
-
 # Load new items data
 new_items = pd.read_csv('price_option.csv')
 
@@ -216,7 +198,6 @@ new_items['Predicted Price'] = predicted_prices
 
 # Print the predicted prices
 print(new_items)
-
 
 # Save the new_items DataFrame to a new CSV file
 new_items.to_csv('priced_items.csv', index=False)

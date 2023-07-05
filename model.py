@@ -4,15 +4,16 @@ import pandas as pd
 main_stat_types = {
     'None': ['Cooldown Reduction', 'Maximum Mana', 'Lucky Hit Chance while Barrier', 'Percent Total Armor', 'Maximum Life'],
     'Focus': ['Cooldown Reduction', 'Resource Generation', 'Mana Cost Reduction', 'Critical Strike Chance', 'Lucky Hit Resource', 'Crackling Damage'],
-    'Gloves': ['Ranks Ice Shards', 'Critical Strike Chance', 'Attack Speed', 'Lucky Hit Chance Resource', 'Lucky Hit Chance', 'Ranks Chain Lightning', 'Intelligence', 'Crit Strike Injured'],
+    'Gloves': ['Ranks Ice Shards', 'Critical Strike Chance', 'Attack Speed', 'Lucky Hit Chance Resource', 'Lucky Hit Chance', 'Ranks Chain Lightning', 'Intelligence', 'Crit Strike Injured', 'Lucky Hit Heal'],
     'Pants': ['Damage Reduction Burning', 'Damage Reduction Close', 'Damage Reduction', 'Damage Reduction Distant', 'Percent Total Armor', 'Intelligence'],
-    'Boots': ['Mana Cost Reduction', 'Ranks Frost Nova', 'Movement Speed', 'Ranks Teleport', 'Slow Duration', 'Movement Speed After Elite', 'all stats'],
+    'Boots': ['Mana Cost Reduction', 'Ranks Frost Nova', 'Movement Speed', 'Ranks Teleport', 'Slow Duration', 'Movement Speed After Elite', 'All Stats', 'Dodge Chance', 'Shadow Resist'],
     'Wand': ['Critical Strike Damage', 'Vulnerable Damage', 'Intelligence', 'Core Skill Damage', 'Damage Close', 'Lucky Execute Elites', 'Ultimate Skill Damage', 'Basic Skill Damage', 'Damage Crowd', 'Damage Slowed', 'Damage Over Time'],
     'Amulet': ['Cooldown Reduction', 'Mana Cost Reduction', 'Ranks Devouring Blaze', 'Ranks Defensive Skills', 'Damage Reduction Burning', 'Healing Received', 'Movement Speed', 'Strength', 'Damage Reduction', 'Thorns', 'Shock Skill Damage', 'Speed After Elite'],
     'Ring': ['Critical Strike Damage', 'Vulnerable Damage', 'Resource Generation', 'Critical Strike Chance', 'Maximum Mana', 'Damage Crowd', 'Lightning Damage', 'Damage Chilled', 'Cold Damage', 'Maximum Life', 'Barrier Generation', 'Overpower Damage', 'Life Regen', 'Lucky Hit Chance'],
-    'Helm': ['Cooldown Reduction', 'Maximum Mana', 'Lucky Hit Chance while Barrier', 'Percent Total Armor', 'Maximum Life'],
+    'Helm': ['Cooldown Reduction', 'Maximum Mana', 'Lucky Hit Chance while Barrier', 'Percent Total Armor', 'Maximum Life', 'Intelligence'],
     # Add the main stat types for the other slots
 }
+
 # Load the items data
 items = pd.read_csv('items.csv')
 

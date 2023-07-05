@@ -1,2 +1,25 @@
 Slot,Item Power,Level,Stat1 Type,Stat1 Value,Stat2 Type,Stat2 Value,Stat3 Type,Stat3 Value,Stat4 Type,Stat4 Value,DPS,HasMainStats,Predicted Price
-Amulet,772,100,Cooldown Reduction,10.0,Movement Speed,14.5,Ranks Devouring Blaze,2,Thorns,25.0,772,True,96.38
+Focus,242,25,Cooldown Reduction,13.0,Resource Generation,2.0,Mana Cost Reduction,5.0,Critical Strike Chance,2.0,1125.0,True,24.8
+Focus,242,25,Cooldown Reduction,13.0,Resource Generation,2.0,Critical Strike Chance,2.0,Mana Cost Reduction,5.0,1125.0,True,25.0
+Focus,242,25,Cooldown Reduction,13.0,Mana Cost Reduction,5.0,Resource Generation,2.0,Critical Strike Chance,2.0,1125.0,True,24.8
+Focus,242,25,Cooldown Reduction,13.0,Mana Cost Reduction,5.0,Critical Strike Chance,2.0,Resource Generation,2.0,1125.0,True,25.0
+Focus,242,25,Cooldown Reduction,13.0,Critical Strike Chance,2.0,Resource Generation,2.0,Mana Cost Reduction,5.0,1125.0,True,25.0
+Focus,242,25,Cooldown Reduction,13.0,Critical Strike Chance,2.0,Mana Cost Reduction,5.0,Resource Generation,2.0,1125.0,True,25.0
+Focus,242,25,Resource Generation,2.0,Cooldown Reduction,13.0,Mana Cost Reduction,5.0,Critical Strike Chance,2.0,1125.0,True,24.77
+Focus,242,25,Resource Generation,2.0,Cooldown Reduction,13.0,Critical Strike Chance,2.0,Mana Cost Reduction,5.0,1125.0,True,24.97
+Focus,242,25,Resource Generation,2.0,Mana Cost Reduction,5.0,Cooldown Reduction,13.0,Critical Strike Chance,2.0,1125.0,True,24.8
+Focus,242,25,Resource Generation,2.0,Mana Cost Reduction,5.0,Critical Strike Chance,2.0,Cooldown Reduction,13.0,1125.0,True,25.0
+Focus,242,25,Resource Generation,2.0,Critical Strike Chance,2.0,Cooldown Reduction,13.0,Mana Cost Reduction,5.0,1125.0,True,25.0
+Focus,242,25,Resource Generation,2.0,Critical Strike Chance,2.0,Mana Cost Reduction,5.0,Cooldown Reduction,13.0,1125.0,True,25.0
+Focus,242,25,Mana Cost Reduction,5.0,Cooldown Reduction,13.0,Resource Generation,2.0,Critical Strike Chance,2.0,1125.0,True,24.77
+Focus,242,25,Mana Cost Reduction,5.0,Cooldown Reduction,13.0,Critical Strike Chance,2.0,Resource Generation,2.0,1125.0,True,24.97
+Focus,242,25,Mana Cost Reduction,5.0,Resource Generation,2.0,Cooldown Reduction,13.0,Critical Strike Chance,2.0,1125.0,True,24.8
+Focus,242,25,Mana Cost Reduction,5.0,Resource Generation,2.0,Critical Strike Chance,2.0,Cooldown Reduction,13.0,1125.0,True,25.0
+Focus,242,25,Mana Cost Reduction,5.0,Critical Strike Chance,2.0,Cooldown Reduction,13.0,Resource Generation,2.0,1125.0,True,25.0
+Focus,242,25,Mana Cost Reduction,5.0,Critical Strike Chance,2.0,Resource Generation,2.0,Cooldown Reduction,13.0,1125.0,True,25.0
+Focus,242,25,Critical Strike Chance,2.0,Cooldown Reduction,13.0,Resource Generation,2.0,Mana Cost Reduction,5.0,1125.0,True,24.97
+Focus,242,25,Critical Strike Chance,2.0,Cooldown Reduction,13.0,Mana Cost Reduction,5.0,Resource Generation,2.0,1125.0,True,24.97
+Focus,242,25,Critical Strike Chance,2.0,Resource Generation,2.0,Cooldown Reduction,13.0,Mana Cost Reduction,5.0,1125.0,True,25.0
+Focus,242,25,Critical Strike Chance,2.0,Resource Generation,2.0,Mana Cost Reduction,5.0,Cooldown Reduction,13.0,1125.0,True,25.0
+Focus,242,25,Critical Strike Chance,2.0,Mana Cost Reduction,5.0,Cooldown Reduction,13.0,Resource Generation,2.0,1125.0,True,25.0
+Focus,242,25,Critical Strike Chance,2.0,Mana Cost Reduction,5.0,Resource Generation,2.0,Cooldown Reduction,13.0,1125.0,True,25.0

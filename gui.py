@@ -7,13 +7,13 @@ import os
 main_stat_types = {
     'None': ['Cooldown Reduction', 'Maximum Mana', 'Lucky Hit Chance while Barrier', 'Percent Total Armor', 'Maximum Life'],
     'Focus': ['Cooldown Reduction', 'Resource Generation', 'Mana Cost Reduction', 'Critical Strike Chance', 'Lucky Hit Resource', 'Crackling Damage'],
-    'Gloves': ['Ranks Ice Shards', 'Critical Strike Chance', 'Attack Speed', 'Lucky Hit Chance Resource', 'Lucky Hit Chance', 'Ranks Chain Lightning', 'Intelligence', 'Crit Strike Injured'],
+    'Gloves': ['Ranks Ice Shards', 'Critical Strike Chance', 'Attack Speed', 'Lucky Hit Chance Resource', 'Lucky Hit Chance', 'Ranks Chain Lightning', 'Intelligence', 'Crit Strike Injured', 'Lucky Hit Heal'],
     'Pants': ['Damage Reduction Burning', 'Damage Reduction Close', 'Damage Reduction', 'Damage Reduction Distant', 'Percent Total Armor', 'Intelligence'],
-    'Boots': ['Mana Cost Reduction', 'Ranks Frost Nova', 'Movement Speed', 'Ranks Teleport', 'Slow Duration', 'Movement Speed After Elite', 'all stats'],
+    'Boots': ['Mana Cost Reduction', 'Ranks Frost Nova', 'Movement Speed', 'Ranks Teleport', 'Slow Duration', 'Movement Speed After Elite', 'All Stats', 'Dodge Chance', 'Shadow Resist'],
     'Wand': ['Critical Strike Damage', 'Vulnerable Damage', 'Intelligence', 'Core Skill Damage', 'Damage Close', 'Lucky Execute Elites', 'Ultimate Skill Damage', 'Basic Skill Damage', 'Damage Crowd', 'Damage Slowed', 'Damage Over Time'],
     'Amulet': ['Cooldown Reduction', 'Mana Cost Reduction', 'Ranks Devouring Blaze', 'Ranks Defensive Skills', 'Damage Reduction Burning', 'Healing Received', 'Movement Speed', 'Strength', 'Damage Reduction', 'Thorns', 'Shock Skill Damage', 'Speed After Elite'],
     'Ring': ['Critical Strike Damage', 'Vulnerable Damage', 'Resource Generation', 'Critical Strike Chance', 'Maximum Mana', 'Damage Crowd', 'Lightning Damage', 'Damage Chilled', 'Cold Damage', 'Maximum Life', 'Barrier Generation', 'Overpower Damage', 'Life Regen', 'Lucky Hit Chance'],
-    'Helm': ['Cooldown Reduction', 'Maximum Mana', 'Lucky Hit Chance while Barrier', 'Percent Total Armor', 'Maximum Life'],
+    'Helm': ['Cooldown Reduction', 'Maximum Mana', 'Lucky Hit Chance while Barrier', 'Percent Total Armor', 'Maximum Life', 'Intelligence'],
     # Add the main stat types for the other slots
 }
 
@@ -162,13 +162,29 @@ def submit_item():
 # Place this function definition above the submit button creation
 submit_button = tk.Button(root, text="Submit", command=submit_item)
 submit_button.grid(row=20,columnspan=2)
-def add_item_to_database(item_data, file_name):
-    df = pd.DataFrame([item_data])
+from itertools import permutations
 
-    if os.path.isfile(file_name):
-        df.to_csv(file_name, mode='a', header=False, index=False)
-    else:
-        df.to_csv(file_name, index=False)
+def add_item_to_database(item_data, file_name):
+    # Get all the permutations of the stat type and value pairs
+    stat_type_values = list(permutations([(item_data['Stat1 Type'], item_data['Stat1 Value']),
+                                          (item_data['Stat2 Type'], item_data['Stat2 Value']),
+                                          (item_data['Stat3 Type'], item_data['Stat3 Value']),
+                                          (item_data['Stat4 Type'], item_data['Stat4 Value'])]))
+
+    # Generate a new row for each permutation
+    for perm in stat_type_values:
+        new_item_data = item_data.copy()
+        new_item_data['Stat1 Type'], new_item_data['Stat1 Value'] = perm[0]
+        new_item_data['Stat2 Type'], new_item_data['Stat2 Value'] = perm[1]
+        new_item_data['Stat3 Type'], new_item_data['Stat3 Value'] = perm[2]
+        new_item_data['Stat4 Type'], new_item_data['Stat4 Value'] = perm[3]
+
+        df = pd.DataFrame([new_item_data])
+
+        if os.path.isfile(file_name):
+            df.to_csv(file_name, mode='a', header=False, index=False)
+        else:
+            df.to_csv(file_name, index=False)
 
 # Slot
 slot_label = tk.Label(root, text='Slot')

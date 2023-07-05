@@ -1,5 +1,5 @@
 # D4 Item Pricer
- Pricing Diablo 4 Items for Buying / Selling
+ Pricing Diablo 4 Items for Buying / Selling \n
  Run gui.py to launch gui for adding items / pricing items
  Click submit to add item to items.csv (Historical Sold Items)
  Clicking add to pricing options will send item to price_option.csv (For quoting item price / value)

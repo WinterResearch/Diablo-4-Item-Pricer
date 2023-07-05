@@ -1,4 +1,5 @@
 # D4 Item Pricer
+![d4_pricing](https://github.com/WinterResearch/D4-Item-Pricer/assets/95959417/66128863-e757-45b6-aa69-e9d3081d859b)
 
 Pricing Diablo 4 Items for Buying / Selling 
 
@@ -25,3 +26,4 @@ The current CSV is loaded with Sorceress items. To clear these options, empty th
 You will need some level of data before the tool will begin working, so intitially start by adding various historically sold items.
 
 Inteded to be used within the diablo 4 community discord marketplace 
+![d4_pricing2](https://github.com/WinterResearch/D4-Item-Pricer/assets/95959417/ce68ed3c-ce09-4991-baeb-44c32fb26c97)

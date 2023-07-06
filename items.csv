@@ -1,49 +1,241 @@
 Slot,Item Power,Level,Stat1 Type,Stat1 Value,Stat2 Type,Stat2 Value,Stat3 Type,Stat3 Value,Stat4 Type,Stat4 Value,DPS,Sold Value
-Pants,805,97,Damage Reduction Distance Enemies,17.5,Intelligence,37,Damage Reduction Close Enemies,12.5,Damage Reduction,5.5,805,7
-Wand,808,100,Intelligence,50,Core Skill Damage,13.5,Critical Strike Damage,20.5,Vulnerable Damage,19.5,1184,60
-Amulet,749,94,Conjuration Skill Damage,17,Ranks Devouring Blaze,2,Damage Reduction,6.7,Mana Cost Reduction,14.5,749,10
-Boots,757,100,Movement Speed,13,Ranks Frost Nova,3,Mana Cost Reduction,5.8,Ranks Teleport,3,378,15
-Amulet,754,100,Ranks Devouring Blaze,2,Ranks Defensive Skills,2,Cooldown Reduction,9.2,Ranks Conjuration Skills,2,754,350
-Helm,791,92,Lucky Hit Chance while Barrier,12,Maximum Life,331,Cooldown Reduction,10,Percent Total Armor,0,989,1
-Boots,782,98,Ranks Teleport,3,Ranks Frost Nova,3,Mana Cost Reduction,5.2,Movement Speed,0,391,2
-Ring,778,93,Critical Strike Chance,2.2,Critical Strike Damage,19,Vulnerable Damage,18.5,Resource Generation,0,778,1
-Amulet,655,86,Mana Cost Reduction,8.5,Ranks Defensive Skills,2,Ranks Devouring Blaze,2,Cooldown Reduction,0,655,65
-Helm,789,100,Cooldown Reduction,9.2,Maximum Life,504,Maximum Mana,0,Lucky Hit Chance while Barrier,12,789,40
-Gloves,242,24,Ranks Ice Shards,2,Critical Strike Chance,4,Attack Speed,4,Lucky Hit Chance Resource,4,24,24242
-Ring,780,77,Lightning Damage,11,Vulnerable Damage,22.5,Damage Chilled,7,Cold Damage,7,780,3
-Boots,739,84,Mana Cost Reduction,6,Movement Speed,12,Slow Duration,15.5,Ranks Teleport,3,739,30
-Boots,762,100,Ranks Teleport,3,Ranks Frost Nova,3,Mana Cost Reduction,4.4,Movement Speed After Elite,27,381,21
-Amulet,777,100,Ranks Devouring Blaze,2,Movement Speed,11.5,Cooldown Reduction,6.8,Strength,7.3,777,22
-Wand,749,80,Critical Strike Damage,17.5,Lucky Execute Elites,6.4,Vulnerable Damage,21.5,Core Skill Damage,16,939,5
-Gloves,768,95,Ranks Ice Shards,3,Critical Strike Chance,7.5,Lucky Hit Chance Resource,14,Ranks Chain Lightning,3,384,20
-Ring,777,77,Critical Strike Chance,5,Critical Strike Damage,20,Lightning Damage,16.5,Maximum Life,1,777,15
-Wand,807,100,Intelligence,53,Vulnerable Damage,22,Core Skill Damage,13.5,Critical Strike Damage,19.5,1180,35
-Wand,812,100,Intelligence,58,Vulnerable Damage,20.5,Core Skill Damage,19.5,Ultimate Skill Damage,21,1203,25
-Wand,816,100,Intelligence,62,Vulnerable Damage,23.5,Ultimate Skill Damage,16.5,Critical Strike Damage,20.5,1222,350
-Boots,786,91,Mana Cost Reduction,6.8,Ranks Teleport,2,Ranks Frost Nova,2,Slow Duration,1,393,10
-Ring,761,100,Resource Generation,12,Critical Strike Damage,20.5,Vulnerable Damage,18.5,Lightning Damage,7,761,10
-Amulet,777,85,Ranks Devouring Blaze,2,Cooldown Reduction,8.4,Damage Reduction Burning,14.5,Strength,4.3,777,125
-Amulet,795,100,Ranks Devouring Blaze,2,Ranks Defensive Skills,2,Mana Cost Reduction,15,Strength,7,795,370
-Amulet,751,99,Ranks Devouring Blaze,2,Ranks Defensive Skills,2,Damage Reduction,5.2,Thorns,566,751,26
-Ring,785,97,Barrier Generation,11.5,Overpower Damage,16,Critical Strike Damage,16,Vulnerable Damage,19,785,3
-Gloves,764,79,Attack Speed,10,Lucky Hit Chance,11,Intelligence,34,Ranks Ice Shards,3,764,40
-Wand,817,84,Damage Crowd,12.5,Critical Strike Damage,19.5,Basic Skill Damage,36.5,Vulnerable Damage,20.5,1227,50
-Focus,761,100,Lucky Hit Resource,12.5,Resource Generation,8.5,Mana Cost Reduction,6,Critical Strike Chance,5,985,15
-Ring,780,72,Life Regen,51,Resource Generation,11.5,Critical Strike Damage,15.5,Critical Strike Chance,3,780,5
-Amulet,760,97,Movement Speed,13.5,Ranks Devouring Blaze,1,Ranks Defensive Skills,2,Cooldown Reduction,9.6,780,80
-Gloves,764,79,Attack Speed,10,Lucky Hit Chance,11,Intelligence,34,Ranks Ice Shards,3,382,38
-Amulet,772,100,Cooldown Reduction,10,Movement Speed,14.5,Ranks Devouring Blaze,2,Thorns,30,772,150
-Ring,797,86,Damage Chilled,7,Vulnerable Damage,20.5,Critical Strike Damage,21,Maximum Mana,5,797,50
-Gloves,777,94,Lucky Hit Chance Resource,13,Ranks Ice Shards,3,Crit Strike Injured,6,Critical Strike Chance,8,777,70
-Helm,773,83,Percent Total Armor,4.9,Maximum Life,638,Cooldown Reduction,8,Maximum Mana,1,996,3
-Amulet,781,100,Shock Skill Damage,11.5,Ranks Devouring Blaze,2,Mana Cost Reduction,16,Cooldown Reduction,7.2,781,100
-Wand,818,98,Intelligence,50,Damage Crowd,20.5,Critical Strike Damage,19.5,Core Skill Damage,17.5,1232,35
-Amulet,785,86,Mana Cost Reduction,12,Speed After Elite,17,Ranks Devouring Blaze,2,Damage Reduction Burning,17.5,785,10
-Wand,814,100,Core Skill Damage,15,Damage Crowd,7,Intelligence,51,Critical Strike Damage,19,1213,14
-Helm,774,100,Cooldown Reduction,9.6,Percent Total Armor,7.3,Intelligence,30,Maximum Mana,16,774,21
-Gloves,791,92,Lucky Hit Heal,759,Ranks Ice Shards,3,Attack Speed,5.6,Lucky Hit Chance Resource,12,396,5
-Ring,782,100,Resource Generation,10,Critical Strike Chance,4.2,Cold Damage,14,Vulnerable Damage,20.5,782,3
-Boots,768,79,Ranks Teleport,3,Movement Speed,17.5,Mana Cost Reduction,6,all stats,15,768,100
-Wand,815,79,Vulnerable Damage,21,Core Skill Damage,15,Ultimate Skill Damage,15,Critical Strike Damage,19,1218,35
-Wand,815,79,Core Skill Damage,15,Vulnerable Damage,21,Ultimate Skill Damage,15,Critical Strike Damage,19,1218,35
-Boots,732,100,Ranks Frost Nova,3,Ranks Teleport,3,Mana Cost Reduction,5.8,Shadow Resist,38,366,25
+Pants,805,97,Damage Reduction Distance Enemies,17.5,Intelligence,37.0,Damage Reduction Close Enemies,12.5,Damage Reduction,5.5,805.0,7.0
+Wand,808,100,Intelligence,50.0,Core Skill Damage,13.5,Critical Strike Damage,20.5,Vulnerable Damage,19.5,1184.0,60.0
+Amulet,749,94,Conjuration Skill Damage,17.0,Ranks Devouring Blaze,2.0,Damage Reduction,6.7,Mana Cost Reduction,14.5,749.0,10.0
+Boots,757,100,Movement Speed,13.0,Ranks Frost Nova,3.0,Mana Cost Reduction,5.8,Ranks Teleport,3.0,378.0,15.0
+Amulet,754,100,Ranks Devouring Blaze,2.0,Ranks Defensive Skills,2.0,Cooldown Reduction,9.2,Ranks Conjuration Skills,2.0,754.0,350.0
+Helm,791,92,Lucky Hit Chance while Barrier,12.0,Maximum Life,331.0,Cooldown Reduction,10.0,Percent Total Armor,0.0,989.0,1.0
+Boots,782,98,Ranks Teleport,3.0,Ranks Frost Nova,3.0,Mana Cost Reduction,5.2,Movement Speed,0.0,391.0,2.0
+Ring,778,93,Critical Strike Chance,2.2,Critical Strike Damage,19.0,Vulnerable Damage,18.5,Resource Generation,0.0,778.0,1.0
+Amulet,655,86,Mana Cost Reduction,8.5,Ranks Defensive Skills,2.0,Ranks Devouring Blaze,2.0,Cooldown Reduction,0.0,655.0,65.0
+Helm,789,100,Cooldown Reduction,9.2,Maximum Life,504.0,Maximum Mana,0.0,Lucky Hit Chance while Barrier,12.0,789.0,40.0
+Gloves,242,24,Ranks Ice Shards,2.0,Critical Strike Chance,4.0,Attack Speed,4.0,Lucky Hit Chance Resource,4.0,24.0,24242.0
+Ring,780,77,Lightning Damage,11.0,Vulnerable Damage,22.5,Damage Chilled,7.0,Cold Damage,7.0,780.0,3.0
+Boots,739,84,Mana Cost Reduction,6.0,Movement Speed,12.0,Slow Duration,15.5,Ranks Teleport,3.0,739.0,30.0
+Boots,762,100,Ranks Teleport,3.0,Ranks Frost Nova,3.0,Mana Cost Reduction,4.4,Movement Speed After Elite,27.0,381.0,21.0
+Amulet,777,100,Ranks Devouring Blaze,2.0,Movement Speed,11.5,Cooldown Reduction,6.8,Strength,7.3,777.0,22.0
+Wand,749,80,Critical Strike Damage,17.5,Lucky Execute Elites,6.4,Vulnerable Damage,21.5,Core Skill Damage,16.0,939.0,5.0
+Gloves,768,95,Ranks Ice Shards,3.0,Critical Strike Chance,7.5,Lucky Hit Chance Resource,14.0,Ranks Chain Lightning,3.0,384.0,20.0
+Ring,777,77,Critical Strike Chance,5.0,Critical Strike Damage,20.0,Lightning Damage,16.5,Maximum Life,1.0,777.0,15.0
+Wand,807,100,Intelligence,53.0,Vulnerable Damage,22.0,Core Skill Damage,13.5,Critical Strike Damage,19.5,1180.0,35.0
+Wand,812,100,Intelligence,58.0,Vulnerable Damage,20.5,Core Skill Damage,19.5,Ultimate Skill Damage,21.0,1203.0,25.0
+Wand,816,100,Intelligence,62.0,Vulnerable Damage,23.5,Ultimate Skill Damage,16.5,Critical Strike Damage,20.5,1222.0,350.0
+Boots,786,91,Mana Cost Reduction,6.8,Ranks Teleport,2.0,Ranks Frost Nova,2.0,Slow Duration,1.0,393.0,10.0
+Ring,761,100,Resource Generation,12.0,Critical Strike Damage,20.5,Vulnerable Damage,18.5,Lightning Damage,7.0,761.0,10.0
+Amulet,777,85,Ranks Devouring Blaze,2.0,Cooldown Reduction,8.4,Damage Reduction Burning,14.5,Strength,4.3,777.0,125.0
+Amulet,795,100,Ranks Devouring Blaze,2.0,Ranks Defensive Skills,2.0,Mana Cost Reduction,15.0,Strength,7.0,795.0,370.0
+Amulet,751,99,Ranks Devouring Blaze,2.0,Ranks Defensive Skills,2.0,Damage Reduction,5.2,Thorns,566.0,751.0,26.0
+Ring,785,97,Barrier Generation,11.5,Overpower Damage,16.0,Critical Strike Damage,16.0,Vulnerable Damage,19.0,785.0,3.0
+Gloves,764,79,Attack Speed,10.0,Lucky Hit Chance,11.0,Intelligence,34.0,Ranks Ice Shards,3.0,764.0,40.0
+Wand,817,84,Damage Crowd,12.5,Critical Strike Damage,19.5,Basic Skill Damage,36.5,Vulnerable Damage,20.5,1227.0,50.0
+Focus,761,100,Lucky Hit Resource,12.5,Resource Generation,8.5,Mana Cost Reduction,6.0,Critical Strike Chance,5.0,985.0,15.0
+Ring,780,72,Life Regen,51.0,Resource Generation,11.5,Critical Strike Damage,15.5,Critical Strike Chance,3.0,780.0,5.0
+Amulet,760,97,Movement Speed,13.5,Ranks Devouring Blaze,1.0,Ranks Defensive Skills,2.0,Cooldown Reduction,9.6,780.0,80.0
+Gloves,764,79,Attack Speed,10.0,Lucky Hit Chance,11.0,Intelligence,34.0,Ranks Ice Shards,3.0,382.0,38.0
+Amulet,772,100,Cooldown Reduction,10.0,Movement Speed,14.5,Ranks Devouring Blaze,2.0,Thorns,30.0,772.0,150.0
+Ring,797,86,Damage Chilled,7.0,Vulnerable Damage,20.5,Critical Strike Damage,21.0,Maximum Mana,5.0,797.0,50.0
+Gloves,777,94,Lucky Hit Chance Resource,13.0,Ranks Ice Shards,3.0,Crit Strike Injured,6.0,Critical Strike Chance,8.0,777.0,70.0
+Helm,773,83,Percent Total Armor,4.9,Maximum Life,638.0,Cooldown Reduction,8.0,Maximum Mana,1.0,996.0,3.0
+Amulet,781,100,Shock Skill Damage,11.5,Ranks Devouring Blaze,2.0,Mana Cost Reduction,16.0,Cooldown Reduction,7.2,781.0,100.0
+Wand,818,98,Intelligence,50.0,Damage Crowd,20.5,Critical Strike Damage,19.5,Core Skill Damage,17.5,1232.0,35.0
+Amulet,785,86,Mana Cost Reduction,12.0,Speed After Elite,17.0,Ranks Devouring Blaze,2.0,Damage Reduction Burning,17.5,785.0,10.0
+Wand,814,100,Core Skill Damage,15.0,Damage Crowd,7.0,Intelligence,51.0,Critical Strike Damage,19.0,1213.0,14.0
+Helm,774,100,Cooldown Reduction,9.6,Percent Total Armor,7.3,Intelligence,30.0,Maximum Mana,16.0,774.0,21.0
+Gloves,791,92,Lucky Hit Heal,759.0,Ranks Ice Shards,3.0,Attack Speed,5.6,Lucky Hit Chance Resource,12.0,396.0,5.0
+Ring,782,100,Resource Generation,10.0,Critical Strike Chance,4.2,Cold Damage,14.0,Vulnerable Damage,20.5,782.0,3.0
+Boots,768,79,Ranks Teleport,3.0,Movement Speed,17.5,Mana Cost Reduction,6.0,all stats,15.0,768.0,100.0
+Wand,815,79,Vulnerable Damage,21.0,Core Skill Damage,15.0,Ultimate Skill Damage,15.0,Critical Strike Damage,19.0,1218.0,35.0
+Wand,815,79,Core Skill Damage,15.0,Vulnerable Damage,21.0,Ultimate Skill Damage,15.0,Critical Strike Damage,19.0,1218.0,35.0
+Boots,732,100,Ranks Frost Nova,3.0,Ranks Teleport,3.0,Mana Cost Reduction,5.8,Shadow Resist,38.0,366.0,25.0
+Amulet,729,100,Damage,9.6,Ranks Devouring Blaze,2.0,Strength,25.0,Mana Cost Reduction,14.0,729.0,18.0
+Amulet,729,100,Damage,9.6,Ranks Devouring Blaze,2.0,Mana Cost Reduction,14.0,Strength,25.0,729.0,18.0
+Amulet,729,100,Damage,9.6,Strength,25.0,Ranks Devouring Blaze,2.0,Mana Cost Reduction,14.0,729.0,18.0
+Amulet,729,100,Damage,9.6,Strength,25.0,Mana Cost Reduction,14.0,Ranks Devouring Blaze,2.0,729.0,18.0
+Amulet,729,100,Damage,9.6,Mana Cost Reduction,14.0,Ranks Devouring Blaze,2.0,Strength,25.0,729.0,18.0
+Amulet,729,100,Damage,9.6,Mana Cost Reduction,14.0,Strength,25.0,Ranks Devouring Blaze,2.0,729.0,18.0
+Amulet,729,100,Ranks Devouring Blaze,2.0,Damage,9.6,Strength,25.0,Mana Cost Reduction,14.0,729.0,18.0
+Amulet,729,100,Ranks Devouring Blaze,2.0,Damage,9.6,Mana Cost Reduction,14.0,Strength,25.0,729.0,18.0
+Amulet,729,100,Ranks Devouring Blaze,2.0,Strength,25.0,Damage,9.6,Mana Cost Reduction,14.0,729.0,18.0
+Amulet,729,100,Ranks Devouring Blaze,2.0,Strength,25.0,Mana Cost Reduction,14.0,Damage,9.6,729.0,18.0
+Amulet,729,100,Ranks Devouring Blaze,2.0,Mana Cost Reduction,14.0,Damage,9.6,Strength,25.0,729.0,18.0
+Amulet,729,100,Ranks Devouring Blaze,2.0,Mana Cost Reduction,14.0,Strength,25.0,Damage,9.6,729.0,18.0
+Amulet,729,100,Strength,25.0,Damage,9.6,Ranks Devouring Blaze,2.0,Mana Cost Reduction,14.0,729.0,18.0
+Amulet,729,100,Strength,25.0,Damage,9.6,Mana Cost Reduction,14.0,Ranks Devouring Blaze,2.0,729.0,18.0
+Amulet,729,100,Strength,25.0,Ranks Devouring Blaze,2.0,Damage,9.6,Mana Cost Reduction,14.0,729.0,18.0
+Amulet,729,100,Strength,25.0,Ranks Devouring Blaze,2.0,Mana Cost Reduction,14.0,Damage,9.6,729.0,18.0
+Amulet,729,100,Strength,25.0,Mana Cost Reduction,14.0,Damage,9.6,Ranks Devouring Blaze,2.0,729.0,18.0
+Amulet,729,100,Strength,25.0,Mana Cost Reduction,14.0,Ranks Devouring Blaze,2.0,Damage,9.6,729.0,18.0
+Amulet,729,100,Mana Cost Reduction,14.0,Damage,9.6,Ranks Devouring Blaze,2.0,Strength,25.0,729.0,18.0
+Amulet,729,100,Mana Cost Reduction,14.0,Damage,9.6,Strength,25.0,Ranks Devouring Blaze,2.0,729.0,18.0
+Amulet,729,100,Mana Cost Reduction,14.0,Ranks Devouring Blaze,2.0,Damage,9.6,Strength,25.0,729.0,18.0
+Amulet,729,100,Mana Cost Reduction,14.0,Ranks Devouring Blaze,2.0,Strength,25.0,Damage,9.6,729.0,18.0
+Amulet,729,100,Mana Cost Reduction,14.0,Strength,25.0,Damage,9.6,Ranks Devouring Blaze,2.0,729.0,18.0
+Amulet,729,100,Mana Cost Reduction,14.0,Strength,25.0,Ranks Devouring Blaze,2.0,Damage,9.6,729.0,18.0
+Helm,755,96,CC Duration,6.5,Maximum Mana,18.0,Resist Type,45.5,Cooldown Reduction,10.0,755.0,10.0
+Helm,755,96,CC Duration,6.5,Maximum Mana,18.0,Cooldown Reduction,10.0,Resist Type,45.5,755.0,10.0
+Helm,755,96,CC Duration,6.5,Resist Type,45.5,Maximum Mana,18.0,Cooldown Reduction,10.0,755.0,10.0
+Helm,755,96,CC Duration,6.5,Resist Type,45.5,Cooldown Reduction,10.0,Maximum Mana,18.0,755.0,10.0
+Helm,755,96,CC Duration,6.5,Cooldown Reduction,10.0,Maximum Mana,18.0,Resist Type,45.5,755.0,10.0
+Helm,755,96,CC Duration,6.5,Cooldown Reduction,10.0,Resist Type,45.5,Maximum Mana,18.0,755.0,10.0
+Helm,755,96,Maximum Mana,18.0,CC Duration,6.5,Resist Type,45.5,Cooldown Reduction,10.0,755.0,10.0
+Helm,755,96,Maximum Mana,18.0,CC Duration,6.5,Cooldown Reduction,10.0,Resist Type,45.5,755.0,10.0
+Helm,755,96,Maximum Mana,18.0,Resist Type,45.5,CC Duration,6.5,Cooldown Reduction,10.0,755.0,10.0
+Helm,755,96,Maximum Mana,18.0,Resist Type,45.5,Cooldown Reduction,10.0,CC Duration,6.5,755.0,10.0
+Helm,755,96,Maximum Mana,18.0,Cooldown Reduction,10.0,CC Duration,6.5,Resist Type,45.5,755.0,10.0
+Helm,755,96,Maximum Mana,18.0,Cooldown Reduction,10.0,Resist Type,45.5,CC Duration,6.5,755.0,10.0
+Helm,755,96,Resist Type,45.5,CC Duration,6.5,Maximum Mana,18.0,Cooldown Reduction,10.0,755.0,10.0
+Helm,755,96,Resist Type,45.5,CC Duration,6.5,Cooldown Reduction,10.0,Maximum Mana,18.0,755.0,10.0
+Helm,755,96,Resist Type,45.5,Maximum Mana,18.0,CC Duration,6.5,Cooldown Reduction,10.0,755.0,10.0
+Helm,755,96,Resist Type,45.5,Maximum Mana,18.0,Cooldown Reduction,10.0,CC Duration,6.5,755.0,10.0
+Helm,755,96,Resist Type,45.5,Cooldown Reduction,10.0,CC Duration,6.5,Maximum Mana,18.0,755.0,10.0
+Helm,755,96,Resist Type,45.5,Cooldown Reduction,10.0,Maximum Mana,18.0,CC Duration,6.5,755.0,10.0
+Helm,755,96,Cooldown Reduction,10.0,CC Duration,6.5,Maximum Mana,18.0,Resist Type,45.5,755.0,10.0
+Helm,755,96,Cooldown Reduction,10.0,CC Duration,6.5,Resist Type,45.5,Maximum Mana,18.0,755.0,10.0
+Helm,755,96,Cooldown Reduction,10.0,Maximum Mana,18.0,CC Duration,6.5,Resist Type,45.5,755.0,10.0
+Helm,755,96,Cooldown Reduction,10.0,Maximum Mana,18.0,Resist Type,45.5,CC Duration,6.5,755.0,10.0
+Helm,755,96,Cooldown Reduction,10.0,Resist Type,45.5,CC Duration,6.5,Maximum Mana,18.0,755.0,10.0
+Helm,755,96,Cooldown Reduction,10.0,Resist Type,45.5,Maximum Mana,18.0,CC Duration,6.5,755.0,10.0
+Helm,755,96,CC Duration,11.0,Maximum Mana,18.0,Resist Type,45.5,Cooldown Reduction,10.0,755.0,80.0
+Helm,755,96,CC Duration,11.0,Maximum Mana,18.0,Cooldown Reduction,10.0,Resist Type,45.5,755.0,80.0
+Helm,755,96,CC Duration,11.0,Resist Type,45.5,Maximum Mana,18.0,Cooldown Reduction,10.0,755.0,80.0
+Helm,755,96,CC Duration,11.0,Resist Type,45.5,Cooldown Reduction,10.0,Maximum Mana,18.0,755.0,80.0
+Helm,755,96,CC Duration,11.0,Cooldown Reduction,10.0,Maximum Mana,18.0,Resist Type,45.5,755.0,80.0
+Helm,755,96,CC Duration,11.0,Cooldown Reduction,10.0,Resist Type,45.5,Maximum Mana,18.0,755.0,80.0
+Helm,755,96,Maximum Mana,18.0,CC Duration,11.0,Resist Type,45.5,Cooldown Reduction,10.0,755.0,80.0
+Helm,755,96,Maximum Mana,18.0,CC Duration,11.0,Cooldown Reduction,10.0,Resist Type,45.5,755.0,80.0
+Helm,755,96,Maximum Mana,18.0,Resist Type,45.5,CC Duration,11.0,Cooldown Reduction,10.0,755.0,80.0
+Helm,755,96,Maximum Mana,18.0,Resist Type,45.5,Cooldown Reduction,10.0,CC Duration,11.0,755.0,80.0
+Helm,755,96,Maximum Mana,18.0,Cooldown Reduction,10.0,CC Duration,11.0,Resist Type,45.5,755.0,80.0
+Helm,755,96,Maximum Mana,18.0,Cooldown Reduction,10.0,Resist Type,45.5,CC Duration,11.0,755.0,80.0
+Helm,755,96,Resist Type,45.5,CC Duration,11.0,Maximum Mana,18.0,Cooldown Reduction,10.0,755.0,80.0
+Helm,755,96,Resist Type,45.5,CC Duration,11.0,Cooldown Reduction,10.0,Maximum Mana,18.0,755.0,80.0
+Helm,755,96,Resist Type,45.5,Maximum Mana,18.0,CC Duration,11.0,Cooldown Reduction,10.0,755.0,80.0
+Helm,755,96,Resist Type,45.5,Maximum Mana,18.0,Cooldown Reduction,10.0,CC Duration,11.0,755.0,80.0
+Helm,755,96,Resist Type,45.5,Cooldown Reduction,10.0,CC Duration,11.0,Maximum Mana,18.0,755.0,80.0
+Helm,755,96,Resist Type,45.5,Cooldown Reduction,10.0,Maximum Mana,18.0,CC Duration,11.0,755.0,80.0
+Helm,755,96,Cooldown Reduction,10.0,CC Duration,11.0,Maximum Mana,18.0,Resist Type,45.5,755.0,80.0
+Helm,755,96,Cooldown Reduction,10.0,CC Duration,11.0,Resist Type,45.5,Maximum Mana,18.0,755.0,80.0
+Helm,755,96,Cooldown Reduction,10.0,Maximum Mana,18.0,CC Duration,11.0,Resist Type,45.5,755.0,80.0
+Helm,755,96,Cooldown Reduction,10.0,Maximum Mana,18.0,Resist Type,45.5,CC Duration,11.0,755.0,80.0
+Helm,755,96,Cooldown Reduction,10.0,Resist Type,45.5,CC Duration,11.0,Maximum Mana,18.0,755.0,80.0
+Helm,755,96,Cooldown Reduction,10.0,Resist Type,45.5,Maximum Mana,18.0,CC Duration,11.0,755.0,80.0
+Amulet,759,100,Cooldown Reduction,7.2,Ranks Devouring Blaze,2.0,Thorns,55.0,Movement Speed,13.5,759.0,15.0
+Amulet,759,100,Cooldown Reduction,7.2,Ranks Devouring Blaze,2.0,Movement Speed,13.5,Thorns,55.0,759.0,15.0
+Amulet,759,100,Cooldown Reduction,7.2,Thorns,55.0,Ranks Devouring Blaze,2.0,Movement Speed,13.5,759.0,15.0
+Amulet,759,100,Cooldown Reduction,7.2,Thorns,55.0,Movement Speed,13.5,Ranks Devouring Blaze,2.0,759.0,15.0
+Amulet,759,100,Cooldown Reduction,7.2,Movement Speed,13.5,Ranks Devouring Blaze,2.0,Thorns,55.0,759.0,15.0
+Amulet,759,100,Cooldown Reduction,7.2,Movement Speed,13.5,Thorns,55.0,Ranks Devouring Blaze,2.0,759.0,15.0
+Amulet,759,100,Ranks Devouring Blaze,2.0,Cooldown Reduction,7.2,Thorns,55.0,Movement Speed,13.5,759.0,15.0
+Amulet,759,100,Ranks Devouring Blaze,2.0,Cooldown Reduction,7.2,Movement Speed,13.5,Thorns,55.0,759.0,15.0
+Amulet,759,100,Ranks Devouring Blaze,2.0,Thorns,55.0,Cooldown Reduction,7.2,Movement Speed,13.5,759.0,15.0
+Amulet,759,100,Ranks Devouring Blaze,2.0,Thorns,55.0,Movement Speed,13.5,Cooldown Reduction,7.2,759.0,15.0
+Amulet,759,100,Ranks Devouring Blaze,2.0,Movement Speed,13.5,Cooldown Reduction,7.2,Thorns,55.0,759.0,15.0
+Amulet,759,100,Ranks Devouring Blaze,2.0,Movement Speed,13.5,Thorns,55.0,Cooldown Reduction,7.2,759.0,15.0
+Amulet,759,100,Thorns,55.0,Cooldown Reduction,7.2,Ranks Devouring Blaze,2.0,Movement Speed,13.5,759.0,15.0
+Amulet,759,100,Thorns,55.0,Cooldown Reduction,7.2,Movement Speed,13.5,Ranks Devouring Blaze,2.0,759.0,15.0
+Amulet,759,100,Thorns,55.0,Ranks Devouring Blaze,2.0,Cooldown Reduction,7.2,Movement Speed,13.5,759.0,15.0
+Amulet,759,100,Thorns,55.0,Ranks Devouring Blaze,2.0,Movement Speed,13.5,Cooldown Reduction,7.2,759.0,15.0
+Amulet,759,100,Thorns,55.0,Movement Speed,13.5,Cooldown Reduction,7.2,Ranks Devouring Blaze,2.0,759.0,15.0
+Amulet,759,100,Thorns,55.0,Movement Speed,13.5,Ranks Devouring Blaze,2.0,Cooldown Reduction,7.2,759.0,15.0
+Amulet,759,100,Movement Speed,13.5,Cooldown Reduction,7.2,Ranks Devouring Blaze,2.0,Thorns,55.0,759.0,15.0
+Amulet,759,100,Movement Speed,13.5,Cooldown Reduction,7.2,Thorns,55.0,Ranks Devouring Blaze,2.0,759.0,15.0
+Amulet,759,100,Movement Speed,13.5,Ranks Devouring Blaze,2.0,Cooldown Reduction,7.2,Thorns,55.0,759.0,15.0
+Amulet,759,100,Movement Speed,13.5,Ranks Devouring Blaze,2.0,Thorns,55.0,Cooldown Reduction,7.2,759.0,15.0
+Amulet,759,100,Movement Speed,13.5,Thorns,55.0,Cooldown Reduction,7.2,Ranks Devouring Blaze,2.0,759.0,15.0
+Amulet,759,100,Movement Speed,13.5,Thorns,55.0,Ranks Devouring Blaze,2.0,Cooldown Reduction,7.2,759.0,15.0
+Amulet,788,100,Ranks Defensive Skills,2.0,Ranks Devouring Blaze,2.0,Cooldown Reduction,5.6,Damage Reduction Burning,9.0,788.0,125.0
+Amulet,788,100,Ranks Defensive Skills,2.0,Ranks Devouring Blaze,2.0,Damage Reduction Burning,9.0,Cooldown Reduction,5.6,788.0,125.0
+Amulet,788,100,Ranks Defensive Skills,2.0,Cooldown Reduction,5.6,Ranks Devouring Blaze,2.0,Damage Reduction Burning,9.0,788.0,125.0
+Amulet,788,100,Ranks Defensive Skills,2.0,Cooldown Reduction,5.6,Damage Reduction Burning,9.0,Ranks Devouring Blaze,2.0,788.0,125.0
+Amulet,788,100,Ranks Defensive Skills,2.0,Damage Reduction Burning,9.0,Ranks Devouring Blaze,2.0,Cooldown Reduction,5.6,788.0,125.0
+Amulet,788,100,Ranks Defensive Skills,2.0,Damage Reduction Burning,9.0,Cooldown Reduction,5.6,Ranks Devouring Blaze,2.0,788.0,125.0
+Amulet,788,100,Ranks Devouring Blaze,2.0,Ranks Defensive Skills,2.0,Cooldown Reduction,5.6,Damage Reduction Burning,9.0,788.0,125.0
+Amulet,788,100,Ranks Devouring Blaze,2.0,Ranks Defensive Skills,2.0,Damage Reduction Burning,9.0,Cooldown Reduction,5.6,788.0,125.0
+Amulet,788,100,Ranks Devouring Blaze,2.0,Cooldown Reduction,5.6,Ranks Defensive Skills,2.0,Damage Reduction Burning,9.0,788.0,125.0
+Amulet,788,100,Ranks Devouring Blaze,2.0,Cooldown Reduction,5.6,Damage Reduction Burning,9.0,Ranks Defensive Skills,2.0,788.0,125.0
+Amulet,788,100,Ranks Devouring Blaze,2.0,Damage Reduction Burning,9.0,Ranks Defensive Skills,2.0,Cooldown Reduction,5.6,788.0,125.0
+Amulet,788,100,Ranks Devouring Blaze,2.0,Damage Reduction Burning,9.0,Cooldown Reduction,5.6,Ranks Defensive Skills,2.0,788.0,125.0
+Amulet,788,100,Cooldown Reduction,5.6,Ranks Defensive Skills,2.0,Ranks Devouring Blaze,2.0,Damage Reduction Burning,9.0,788.0,125.0
+Amulet,788,100,Cooldown Reduction,5.6,Ranks Defensive Skills,2.0,Damage Reduction Burning,9.0,Ranks Devouring Blaze,2.0,788.0,125.0
+Amulet,788,100,Cooldown Reduction,5.6,Ranks Devouring Blaze,2.0,Ranks Defensive Skills,2.0,Damage Reduction Burning,9.0,788.0,125.0
+Amulet,788,100,Cooldown Reduction,5.6,Ranks Devouring Blaze,2.0,Damage Reduction Burning,9.0,Ranks Defensive Skills,2.0,788.0,125.0
+Amulet,788,100,Cooldown Reduction,5.6,Damage Reduction Burning,9.0,Ranks Defensive Skills,2.0,Ranks Devouring Blaze,2.0,788.0,125.0
+Amulet,788,100,Cooldown Reduction,5.6,Damage Reduction Burning,9.0,Ranks Devouring Blaze,2.0,Ranks Defensive Skills,2.0,788.0,125.0
+Amulet,788,100,Damage Reduction Burning,9.0,Ranks Defensive Skills,2.0,Ranks Devouring Blaze,2.0,Cooldown Reduction,5.6,788.0,125.0
+Amulet,788,100,Damage Reduction Burning,9.0,Ranks Defensive Skills,2.0,Cooldown Reduction,5.6,Ranks Devouring Blaze,2.0,788.0,125.0
+Amulet,788,100,Damage Reduction Burning,9.0,Ranks Devouring Blaze,2.0,Ranks Defensive Skills,2.0,Cooldown Reduction,5.6,788.0,125.0
+Amulet,788,100,Damage Reduction Burning,9.0,Ranks Devouring Blaze,2.0,Cooldown Reduction,5.6,Ranks Defensive Skills,2.0,788.0,125.0
+Amulet,788,100,Damage Reduction Burning,9.0,Cooldown Reduction,5.6,Ranks Defensive Skills,2.0,Ranks Devouring Blaze,2.0,788.0,125.0
+Amulet,788,100,Damage Reduction Burning,9.0,Cooldown Reduction,5.6,Ranks Devouring Blaze,2.0,Ranks Defensive Skills,2.0,788.0,125.0
+Ring,778,100,Critical Strike Damage,21.0,Critical Strike Chance,4.6,Barrier Generation,12.0,Vulnerable Damage,20.0,778.0,25.0
+Ring,778,100,Critical Strike Damage,21.0,Critical Strike Chance,4.6,Vulnerable Damage,20.0,Barrier Generation,12.0,778.0,25.0
+Ring,778,100,Critical Strike Damage,21.0,Barrier Generation,12.0,Critical Strike Chance,4.6,Vulnerable Damage,20.0,778.0,25.0
+Ring,778,100,Critical Strike Damage,21.0,Barrier Generation,12.0,Vulnerable Damage,20.0,Critical Strike Chance,4.6,778.0,25.0
+Ring,778,100,Critical Strike Damage,21.0,Vulnerable Damage,20.0,Critical Strike Chance,4.6,Barrier Generation,12.0,778.0,25.0
+Ring,778,100,Critical Strike Damage,21.0,Vulnerable Damage,20.0,Barrier Generation,12.0,Critical Strike Chance,4.6,778.0,25.0
+Ring,778,100,Critical Strike Chance,4.6,Critical Strike Damage,21.0,Barrier Generation,12.0,Vulnerable Damage,20.0,778.0,25.0
+Ring,778,100,Critical Strike Chance,4.6,Critical Strike Damage,21.0,Vulnerable Damage,20.0,Barrier Generation,12.0,778.0,25.0
+Ring,778,100,Critical Strike Chance,4.6,Barrier Generation,12.0,Critical Strike Damage,21.0,Vulnerable Damage,20.0,778.0,25.0
+Ring,778,100,Critical Strike Chance,4.6,Barrier Generation,12.0,Vulnerable Damage,20.0,Critical Strike Damage,21.0,778.0,25.0
+Ring,778,100,Critical Strike Chance,4.6,Vulnerable Damage,20.0,Critical Strike Damage,21.0,Barrier Generation,12.0,778.0,25.0
+Ring,778,100,Critical Strike Chance,4.6,Vulnerable Damage,20.0,Barrier Generation,12.0,Critical Strike Damage,21.0,778.0,25.0
+Ring,778,100,Barrier Generation,12.0,Critical Strike Damage,21.0,Critical Strike Chance,4.6,Vulnerable Damage,20.0,778.0,25.0
+Ring,778,100,Barrier Generation,12.0,Critical Strike Damage,21.0,Vulnerable Damage,20.0,Critical Strike Chance,4.6,778.0,25.0
+Ring,778,100,Barrier Generation,12.0,Critical Strike Chance,4.6,Critical Strike Damage,21.0,Vulnerable Damage,20.0,778.0,25.0
+Ring,778,100,Barrier Generation,12.0,Critical Strike Chance,4.6,Vulnerable Damage,20.0,Critical Strike Damage,21.0,778.0,25.0
+Ring,778,100,Barrier Generation,12.0,Vulnerable Damage,20.0,Critical Strike Damage,21.0,Critical Strike Chance,4.6,778.0,25.0
+Ring,778,100,Barrier Generation,12.0,Vulnerable Damage,20.0,Critical Strike Chance,4.6,Critical Strike Damage,21.0,778.0,25.0
+Ring,778,100,Vulnerable Damage,20.0,Critical Strike Damage,21.0,Critical Strike Chance,4.6,Barrier Generation,12.0,778.0,25.0
+Ring,778,100,Vulnerable Damage,20.0,Critical Strike Damage,21.0,Barrier Generation,12.0,Critical Strike Chance,4.6,778.0,25.0
+Ring,778,100,Vulnerable Damage,20.0,Critical Strike Chance,4.6,Critical Strike Damage,21.0,Barrier Generation,12.0,778.0,25.0
+Ring,778,100,Vulnerable Damage,20.0,Critical Strike Chance,4.6,Barrier Generation,12.0,Critical Strike Damage,21.0,778.0,25.0
+Ring,778,100,Vulnerable Damage,20.0,Barrier Generation,12.0,Critical Strike Damage,21.0,Critical Strike Chance,4.6,778.0,25.0
+Ring,778,100,Vulnerable Damage,20.0,Barrier Generation,12.0,Critical Strike Chance,4.6,Critical Strike Damage,21.0,778.0,25.0
+Ring,803,89,Vulnerable Damage,23.5,Critical Strike Damage,19.5,Lightning Damage,20.0,Crackling Damage,14.0,803.0,2.0
+Ring,803,89,Vulnerable Damage,23.5,Critical Strike Damage,19.5,Crackling Damage,14.0,Lightning Damage,20.0,803.0,2.0
+Ring,803,89,Vulnerable Damage,23.5,Lightning Damage,20.0,Critical Strike Damage,19.5,Crackling Damage,14.0,803.0,2.0
+Ring,803,89,Vulnerable Damage,23.5,Lightning Damage,20.0,Crackling Damage,14.0,Critical Strike Damage,19.5,803.0,2.0
+Ring,803,89,Vulnerable Damage,23.5,Crackling Damage,14.0,Critical Strike Damage,19.5,Lightning Damage,20.0,803.0,2.0
+Ring,803,89,Vulnerable Damage,23.5,Crackling Damage,14.0,Lightning Damage,20.0,Critical Strike Damage,19.5,803.0,2.0
+Ring,803,89,Critical Strike Damage,19.5,Vulnerable Damage,23.5,Lightning Damage,20.0,Crackling Damage,14.0,803.0,2.0
+Ring,803,89,Critical Strike Damage,19.5,Vulnerable Damage,23.5,Crackling Damage,14.0,Lightning Damage,20.0,803.0,2.0
+Ring,803,89,Critical Strike Damage,19.5,Lightning Damage,20.0,Vulnerable Damage,23.5,Crackling Damage,14.0,803.0,2.0
+Ring,803,89,Critical Strike Damage,19.5,Lightning Damage,20.0,Crackling Damage,14.0,Vulnerable Damage,23.5,803.0,2.0
+Ring,803,89,Critical Strike Damage,19.5,Crackling Damage,14.0,Vulnerable Damage,23.5,Lightning Damage,20.0,803.0,2.0
+Ring,803,89,Critical Strike Damage,19.5,Crackling Damage,14.0,Lightning Damage,20.0,Vulnerable Damage,23.5,803.0,2.0
+Ring,803,89,Lightning Damage,20.0,Vulnerable Damage,23.5,Critical Strike Damage,19.5,Crackling Damage,14.0,803.0,2.0
+Ring,803,89,Lightning Damage,20.0,Vulnerable Damage,23.5,Crackling Damage,14.0,Critical Strike Damage,19.5,803.0,2.0
+Ring,803,89,Lightning Damage,20.0,Critical Strike Damage,19.5,Vulnerable Damage,23.5,Crackling Damage,14.0,803.0,2.0
+Ring,803,89,Lightning Damage,20.0,Critical Strike Damage,19.5,Crackling Damage,14.0,Vulnerable Damage,23.5,803.0,2.0
+Ring,803,89,Lightning Damage,20.0,Crackling Damage,14.0,Vulnerable Damage,23.5,Critical Strike Damage,19.5,803.0,2.0
+Ring,803,89,Lightning Damage,20.0,Crackling Damage,14.0,Critical Strike Damage,19.5,Vulnerable Damage,23.5,803.0,2.0
+Ring,803,89,Crackling Damage,14.0,Vulnerable Damage,23.5,Critical Strike Damage,19.5,Lightning Damage,20.0,803.0,2.0
+Ring,803,89,Crackling Damage,14.0,Vulnerable Damage,23.5,Lightning Damage,20.0,Critical Strike Damage,19.5,803.0,2.0
+Ring,803,89,Crackling Damage,14.0,Critical Strike Damage,19.5,Vulnerable Damage,23.5,Lightning Damage,20.0,803.0,2.0
+Ring,803,89,Crackling Damage,14.0,Critical Strike Damage,19.5,Lightning Damage,20.0,Vulnerable Damage,23.5,803.0,2.0
+Ring,803,89,Crackling Damage,14.0,Lightning Damage,20.0,Vulnerable Damage,23.5,Critical Strike Damage,19.5,803.0,2.0
+Ring,803,89,Crackling Damage,14.0,Lightning Damage,20.0,Critical Strike Damage,19.5,Vulnerable Damage,23.5,803.0,2.0
+Wand,815,100,Critical Strike Damage,21.0,Damage Slowed,33.0,Intelligence,63.0,Core Skill Damage,18.0,815.0,200.0
+Wand,815,100,Critical Strike Damage,21.0,Damage Slowed,33.0,Core Skill Damage,18.0,Intelligence,63.0,815.0,200.0
+Wand,815,100,Critical Strike Damage,21.0,Intelligence,63.0,Damage Slowed,33.0,Core Skill Damage,18.0,815.0,200.0
+Wand,815,100,Critical Strike Damage,21.0,Intelligence,63.0,Core Skill Damage,18.0,Damage Slowed,33.0,815.0,200.0
+Wand,815,100,Critical Strike Damage,21.0,Core Skill Damage,18.0,Damage Slowed,33.0,Intelligence,63.0,815.0,200.0
+Wand,815,100,Critical Strike Damage,21.0,Core Skill Damage,18.0,Intelligence,63.0,Damage Slowed,33.0,815.0,200.0
+Wand,815,100,Damage Slowed,33.0,Critical Strike Damage,21.0,Intelligence,63.0,Core Skill Damage,18.0,815.0,200.0
+Wand,815,100,Damage Slowed,33.0,Critical Strike Damage,21.0,Core Skill Damage,18.0,Intelligence,63.0,815.0,200.0
+Wand,815,100,Damage Slowed,33.0,Intelligence,63.0,Critical Strike Damage,21.0,Core Skill Damage,18.0,815.0,200.0
+Wand,815,100,Damage Slowed,33.0,Intelligence,63.0,Core Skill Damage,18.0,Critical Strike Damage,21.0,815.0,200.0
+Wand,815,100,Damage Slowed,33.0,Core Skill Damage,18.0,Critical Strike Damage,21.0,Intelligence,63.0,815.0,200.0
+Wand,815,100,Damage Slowed,33.0,Core Skill Damage,18.0,Intelligence,63.0,Critical Strike Damage,21.0,815.0,200.0
+Wand,815,100,Intelligence,63.0,Critical Strike Damage,21.0,Damage Slowed,33.0,Core Skill Damage,18.0,815.0,200.0
+Wand,815,100,Intelligence,63.0,Critical Strike Damage,21.0,Core Skill Damage,18.0,Damage Slowed,33.0,815.0,200.0
+Wand,815,100,Intelligence,63.0,Damage Slowed,33.0,Critical Strike Damage,21.0,Core Skill Damage,18.0,815.0,200.0
+Wand,815,100,Intelligence,63.0,Damage Slowed,33.0,Core Skill Damage,18.0,Critical Strike Damage,21.0,815.0,200.0
+Wand,815,100,Intelligence,63.0,Core Skill Damage,18.0,Critical Strike Damage,21.0,Damage Slowed,33.0,815.0,200.0
+Wand,815,100,Intelligence,63.0,Core Skill Damage,18.0,Damage Slowed,33.0,Critical Strike Damage,21.0,815.0,200.0
+Wand,815,100,Core Skill Damage,18.0,Critical Strike Damage,21.0,Damage Slowed,33.0,Intelligence,63.0,815.0,200.0
+Wand,815,100,Core Skill Damage,18.0,Critical Strike Damage,21.0,Intelligence,63.0,Damage Slowed,33.0,815.0,200.0
+Wand,815,100,Core Skill Damage,18.0,Damage Slowed,33.0,Critical Strike Damage,21.0,Intelligence,63.0,815.0,200.0
+Wand,815,100,Core Skill Damage,18.0,Damage Slowed,33.0,Intelligence,63.0,Critical Strike Damage,21.0,815.0,200.0
+Wand,815,100,Core Skill Damage,18.0,Intelligence,63.0,Critical Strike Damage,21.0,Damage Slowed,33.0,815.0,200.0
+Wand,815,100,Core Skill Damage,18.0,Intelligence,63.0,Damage Slowed,33.0,Critical Strike Damage,21.0,815.0,200.0

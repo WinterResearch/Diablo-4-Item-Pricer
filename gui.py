@@ -3,20 +3,26 @@ from tkinter import ttk, messagebox
 from tkinter import messagebox
 import pandas as pd
 import os
+import subprocess
+
 
 main_stat_types = {
     'None': ['Cooldown Reduction', 'Maximum Mana', 'Lucky Hit Chance while Barrier', 'Percent Total Armor', 'Maximum Life'],
-    'Focus': ['Cooldown Reduction', 'Resource Generation', 'Mana Cost Reduction', 'Critical Strike Chance', 'Lucky Hit Resource', 'Crackling Damage', 'Lucky Hit Barrier', 'Crit Chance Injured'],
+    'Focus': ['Cooldown Reduction', 'Resource Generation', 'Mana Cost Reduction', 'Critical Strike Chance', 'Lucky Hit Resource', 'Crackling Damage', 'Lucky Hit Barrier', 'Crit Chance Injured', 'Barrier Generation', 'CC Duration'],
     'Gloves': ['Ranks Ice Shards', 'Critical Strike Chance', 'Attack Speed', 'Lucky Hit Chance Resource', 'Lucky Hit Chance', 'Ranks Chain Lightning', 'Intelligence', 'Crit Strike Injured', 'Lucky Hit Heal', 'All Stats', 'Ranks Frozen Orb'],
     'Pants': ['Damage Reduction Burning', 'Damage Reduction Close', 'Damage Reduction', 'Damage Reduction Distant', 'Percent Total Armor', 'Intelligence', 'Ranks Blizzard'],
     'Boots': ['Mana Cost Reduction', 'Ranks Frost Nova', 'Movement Speed', 'Ranks Teleport', 'Slow Duration', 'Movement Speed After Elite', 'All Stats', 'Dodge Chance', 'Shadow Resist', 'Ranks Ice Armor'],
     'Wand': ['Critical Strike Damage', 'Vulnerable Damage', 'Intelligence', 'Core Skill Damage', 'Damage Close', 'Lucky Execute Elites', 'Ultimate Skill Damage', 'Basic Skill Damage', 'Damage Crowd', 'Damage Slowed', 'Damage Over Time', 'Damage Burning', 'Damage Injured', 'Overpower Damage'],
     'Amulet': ['Cooldown Reduction', 'Mana Cost Reduction', 'Ranks Devouring Blaze', 'Ranks Defensive Skills', 'Damage Reduction Burning', 'Healing Received', 'Movement Speed', 'Strength', 'Damage Reduction', 'Thorns', 'Shock Skill Damage', 'Speed After Elite', 'Damage', 'Ultimate Skill Dmg', 'Lucky Hit Barrier', 'Ranks Conjuration', 'Ranks Icy Touch'],
-    'Ring': ['Critical Strike Damage', 'Vulnerable Damage', 'Resource Generation', 'Critical Strike Chance', 'Maximum Mana', 'Damage Crowd', 'Lightning Damage', 'Damage Chilled', 'Cold Damage', 'Maximum Life', 'Barrier Generation', 'Overpower Damage', 'Life Regen', 'Lucky Hit Chance','Crackling Damage'],
+    'Ring': ['Critical Strike Damage', 'Vulnerable Damage', 'Resource Generation', 'Critical Strike Chance', 'Maximum Mana', 'Damage Crowd', 'Lightning Damage', 'Damage Chilled', 'Cold Damage', 'Maximum Life', 'Barrier Generation', 'Overpower Damage', 'Life Regen', 'Lucky Hit Chance','Crackling Damage', 'Fire Damage'],
     'Helm': ['Cooldown Reduction', 'Maximum Mana', 'Lucky Hit Chance while Barrier', 'Percent Total Armor', 'Maximum Life', 'Intelligence', 'Resist Type', 'CC Duration'],
     'Chest': ['Damage Reduction Distance', 'Damage Reduction Close', 'Strength', 'Total Armor']
     # Add the main stat types for the other slots
 }
+
+def run_model():
+    subprocess.call(["python", "model.py"])
+
 
 #todo add a personal flip section, post buys, follow up with true sold price, reflect in historical db, maintain "pnl" / error reducing
 root = tk.Tk()
@@ -161,7 +167,7 @@ def submit_item():
         messagebox.showerror("Error", str(e))
 
 # Place this function definition above the submit button creation
-submit_button = tk.Button(root, text="Submit", command=submit_item)
+submit_button = tk.Button(root, text="Submit to Sold Database", command=submit_item)
 submit_button.grid(row=20,columnspan=2)
 from itertools import permutations
 
@@ -265,8 +271,12 @@ sold_value_label.grid(row=12, column=0)
 sold_value_entry = tk.Entry(root)
 sold_value_entry.grid(row=12, column=1)
 
-price_option_button = tk.Button(root, text="Add to Pricing Options", command=add_item_to_pricing)
+price_option_button = tk.Button(root, text="  Add to Price Item List  ", command=add_item_to_pricing)
 price_option_button.grid(row=21,columnspan=2)
+
+# The 'command' parameter executes the 'run_model' function when the button is clicked
+run_button = tk.Button(root, text="    Run Pricing Model    ", command=run_model)
+run_button.grid(row=22,columnspan=2)
 
 
 root.mainloop()

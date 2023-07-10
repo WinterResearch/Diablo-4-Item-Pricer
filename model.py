@@ -1,89 +1,33 @@
 import pandas as pd
 
 # Define the main stat types for each slot
+
 main_stat_types = {
     'None': ['Cooldown Reduction', 'Maximum Mana', 'Lucky Hit Chance while Barrier', 'Percent Total Armor', 'Maximum Life'],
-    'Focus': ['Cooldown Reduction', 'Resource Generation', 'Mana Cost Reduction', 'Critical Strike Chance', 'Lucky Hit Resource', 'Crackling Damage'],
-    'Gloves': ['Ranks Ice Shards', 'Critical Strike Chance', 'Attack Speed', 'Lucky Hit Chance Resource', 'Lucky Hit Chance', 'Ranks Chain Lightning', 'Intelligence', 'Crit Strike Injured', 'Lucky Hit Heal'],
-    'Pants': ['Damage Reduction Burning', 'Damage Reduction Close', 'Damage Reduction', 'Damage Reduction Distant', 'Percent Total Armor', 'Intelligence'],
-    'Boots': ['Mana Cost Reduction', 'Ranks Frost Nova', 'Movement Speed', 'Ranks Teleport', 'Slow Duration', 'Movement Speed After Elite', 'All Stats', 'Dodge Chance', 'Shadow Resist'],
-    'Wand': ['Critical Strike Damage', 'Vulnerable Damage', 'Intelligence', 'Core Skill Damage', 'Damage Close', 'Lucky Execute Elites', 'Ultimate Skill Damage', 'Basic Skill Damage', 'Damage Crowd', 'Damage Slowed', 'Damage Over Time'],
-    'Amulet': ['Cooldown Reduction', 'Mana Cost Reduction', 'Ranks Devouring Blaze', 'Ranks Defensive Skills', 'Damage Reduction Burning', 'Healing Received', 'Movement Speed', 'Strength', 'Damage Reduction', 'Thorns', 'Shock Skill Damage', 'Speed After Elite'],
-    'Ring': ['Critical Strike Damage', 'Vulnerable Damage', 'Resource Generation', 'Critical Strike Chance', 'Maximum Mana', 'Damage Crowd', 'Lightning Damage', 'Damage Chilled', 'Cold Damage', 'Maximum Life', 'Barrier Generation', 'Overpower Damage', 'Life Regen', 'Lucky Hit Chance'],
-    'Helm': ['Cooldown Reduction', 'Maximum Mana', 'Lucky Hit Chance while Barrier', 'Percent Total Armor', 'Maximum Life', 'Intelligence'],
+    'Focus': ['Cooldown Reduction', 'Resource Generation', 'Mana Cost Reduction', 'Critical Strike Chance', 'Lucky Hit Resource', 'Crackling Damage', 'Lucky Hit Barrier', 'Crit Chance Injured'],
+    'Gloves': ['Ranks Ice Shards', 'Critical Strike Chance', 'Attack Speed', 'Lucky Hit Chance Resource', 'Lucky Hit Chance', 'Ranks Chain Lightning', 'Intelligence', 'Crit Strike Injured', 'Lucky Hit Heal', 'All Stats', 'Ranks Frozen Orb'],
+    'Pants': ['Damage Reduction Burning', 'Damage Reduction Close', 'Damage Reduction', 'Damage Reduction Distant', 'Percent Total Armor', 'Intelligence', 'Ranks Blizzard'],
+    'Boots': ['Mana Cost Reduction', 'Ranks Frost Nova', 'Movement Speed', 'Ranks Teleport', 'Slow Duration', 'Movement Speed After Elite', 'All Stats', 'Dodge Chance', 'Shadow Resist', 'Ranks Ice Armor'],
+    'Wand': ['Critical Strike Damage', 'Vulnerable Damage', 'Intelligence', 'Core Skill Damage', 'Damage Close', 'Lucky Execute Elites', 'Ultimate Skill Damage', 'Basic Skill Damage', 'Damage Crowd', 'Damage Slowed', 'Damage Over Time', 'Damage Burning', 'Damage Injured', 'Overpower Damage'],
+    'Amulet': ['Cooldown Reduction', 'Mana Cost Reduction', 'Ranks Devouring Blaze', 'Ranks Defensive Skills', 'Damage Reduction Burning', 'Healing Received', 'Movement Speed', 'Strength', 'Damage Reduction', 'Thorns', 'Shock Skill Damage', 'Speed After Elite', 'Damage', 'Ultimate Skill Dmg', 'Lucky Hit Barrier', 'Ranks Conjuration', 'Ranks Icy Touch'],
+    'Ring': ['Critical Strike Damage', 'Vulnerable Damage', 'Resource Generation', 'Critical Strike Chance', 'Maximum Mana', 'Damage Crowd', 'Lightning Damage', 'Damage Chilled', 'Cold Damage', 'Maximum Life', 'Barrier Generation', 'Overpower Damage', 'Life Regen', 'Lucky Hit Chance','Crackling Damage'],
+    'Helm': ['Cooldown Reduction', 'Maximum Mana', 'Lucky Hit Chance while Barrier', 'Percent Total Armor', 'Maximum Life', 'Intelligence', 'Resist Type', 'CC Duration'],
+    'Chest': ['Damage Reduction Distance', 'Damage Reduction Close', 'Strength', 'Total Armor']
     # Add the main stat types for the other slots
 }
 
 # Load the items data
 items = pd.read_csv('items.csv')
 
-# Query whether the user wants to add a new item
-add_item = input("Do you want to add a new item? Press 1 for Yes, 2 for No: ")
-
-while add_item == "1":
-    # Prompt the user to select a slot
-    print("Select a slot:")
-    for i, slot in enumerate(main_stat_types.keys(), 1):
-        print(f"{i}. {slot}")
-    slot_index = int(input("Enter the number for the slot: ")) - 1
-    slot = list(main_stat_types.keys())[slot_index]
-
-    # Prompt the user to enter the item power, level and DPS
-    item_power = float(input("Enter the item power: "))
-    level = int(input("Enter the item level: "))
-    DPS = float(input("Enter the DPS: "))
-    sold_value = float(input("Enter the sold value: "))  
-    # Initialize stat types and values
-    stat_types = []
-    stat_values = []
-
-    # Prompt the user to select stat types and enter corresponding values
-    for i in range(4):
-        print(f"Select stat{i+1} type:")
-        for j, stat_type in enumerate(main_stat_types[slot], 1):
-            print(f"{j}. {stat_type}")
-        stat_index = int(input(f"Enter the number for stat{i+1} type: ")) - 1
-        stat_type = main_stat_types[slot][stat_index]
-        stat_types.append(stat_type)
-
-        stat_value = float(input(f"Enter the value for {stat_type}: "))
-        stat_values.append(stat_value)
-
-    # Construct a new item
-    new_item = pd.DataFrame({
-        'Slot': [slot],
-        'Item Power': [item_power],
-        'Level': [level],
-        'Stat1 Type': [stat_types[0]],
-        'Stat1 Value': [stat_values[0]],
-        'Stat2 Type': [stat_types[1]],
-        'Stat2 Value': [stat_values[1]],
-        'Stat3 Type': [stat_types[2]],
-        'Stat3 Value': [stat_values[2]],
-        'Stat4 Type': [stat_types[3]],
-        'Stat4 Value': [stat_values[3]],
-        'DPS': [DPS],
-        'Sold Value': [sold_value]
-    })
-
-    # Append the new item to the items DataFrame
-    items = items.append(new_item, ignore_index=True)
-
-    # Query whether the user wants to add another new item
-    add_item = input("Do you want to add another new item? Press 1 for Yes, 2 for No: ")
-
-# Save the updated items data to the CSV file
-items.to_csv('items.csv', index=False)
-
 # Print the first few rows of the data
-print(items.head())
+#print(items.head())
 
 
 # Descriptive statistics for the numeric columns
-print(items.describe())
+#print(items.describe())
 
 # Check for missing data
-print(items.isnull().sum())
+#print(items.isnull().sum())
 
 # Define a function that checks if an item has at least 3 of the 4 main stat types
 def has_main_stats(row):
@@ -137,7 +81,7 @@ preprocessor = ColumnTransformer(
 items_preprocessed = preprocessor.fit_transform(items.drop("Sold Value", axis=1))
 
 # Print the shape of the preprocessed data
-print(items_preprocessed.shape)
+#print(items_preprocessed.shape)
 
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split

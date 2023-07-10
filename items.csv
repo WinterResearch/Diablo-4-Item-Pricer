@@ -502,3 +502,99 @@ Focus,760,79,Crit Chance Injured,11.3,Lucky Hit Barrier,5.4,Critical Strike Chan
 Focus,760,79,Crit Chance Injured,11.3,Lucky Hit Barrier,5.4,Mana Cost Reduction,7.0,Critical Strike Chance,1.8,981.0,2.0
 Focus,760,79,Crit Chance Injured,11.3,Mana Cost Reduction,7.0,Critical Strike Chance,1.8,Lucky Hit Barrier,5.4,981.0,2.0
 Focus,760,79,Crit Chance Injured,11.3,Mana Cost Reduction,7.0,Lucky Hit Barrier,5.4,Critical Strike Chance,1.8,981.0,2.0
+Boots,763,96,Ranks Frost Nova,3.0,Dodge Chance,9.3,Movement Speed,16.0,Mana Cost Reduction,5.8,382.0,20.0
+Boots,763,96,Ranks Frost Nova,3.0,Dodge Chance,9.3,Mana Cost Reduction,5.8,Movement Speed,16.0,382.0,20.0
+Boots,763,96,Ranks Frost Nova,3.0,Movement Speed,16.0,Dodge Chance,9.3,Mana Cost Reduction,5.8,382.0,20.0
+Boots,763,96,Ranks Frost Nova,3.0,Movement Speed,16.0,Mana Cost Reduction,5.8,Dodge Chance,9.3,382.0,20.0
+Boots,763,96,Ranks Frost Nova,3.0,Mana Cost Reduction,5.8,Dodge Chance,9.3,Movement Speed,16.0,382.0,20.0
+Boots,763,96,Ranks Frost Nova,3.0,Mana Cost Reduction,5.8,Movement Speed,16.0,Dodge Chance,9.3,382.0,20.0
+Boots,763,96,Dodge Chance,9.3,Ranks Frost Nova,3.0,Movement Speed,16.0,Mana Cost Reduction,5.8,382.0,20.0
+Boots,763,96,Dodge Chance,9.3,Ranks Frost Nova,3.0,Mana Cost Reduction,5.8,Movement Speed,16.0,382.0,20.0
+Boots,763,96,Dodge Chance,9.3,Movement Speed,16.0,Ranks Frost Nova,3.0,Mana Cost Reduction,5.8,382.0,20.0
+Boots,763,96,Dodge Chance,9.3,Movement Speed,16.0,Mana Cost Reduction,5.8,Ranks Frost Nova,3.0,382.0,20.0
+Boots,763,96,Dodge Chance,9.3,Mana Cost Reduction,5.8,Ranks Frost Nova,3.0,Movement Speed,16.0,382.0,20.0
+Boots,763,96,Dodge Chance,9.3,Mana Cost Reduction,5.8,Movement Speed,16.0,Ranks Frost Nova,3.0,382.0,20.0
+Boots,763,96,Movement Speed,16.0,Ranks Frost Nova,3.0,Dodge Chance,9.3,Mana Cost Reduction,5.8,382.0,20.0
+Boots,763,96,Movement Speed,16.0,Ranks Frost Nova,3.0,Mana Cost Reduction,5.8,Dodge Chance,9.3,382.0,20.0
+Boots,763,96,Movement Speed,16.0,Dodge Chance,9.3,Ranks Frost Nova,3.0,Mana Cost Reduction,5.8,382.0,20.0
+Boots,763,96,Movement Speed,16.0,Dodge Chance,9.3,Mana Cost Reduction,5.8,Ranks Frost Nova,3.0,382.0,20.0
+Boots,763,96,Movement Speed,16.0,Mana Cost Reduction,5.8,Ranks Frost Nova,3.0,Dodge Chance,9.3,382.0,20.0
+Boots,763,96,Movement Speed,16.0,Mana Cost Reduction,5.8,Dodge Chance,9.3,Ranks Frost Nova,3.0,382.0,20.0
+Boots,763,96,Mana Cost Reduction,5.8,Ranks Frost Nova,3.0,Dodge Chance,9.3,Movement Speed,16.0,382.0,20.0
+Boots,763,96,Mana Cost Reduction,5.8,Ranks Frost Nova,3.0,Movement Speed,16.0,Dodge Chance,9.3,382.0,20.0
+Boots,763,96,Mana Cost Reduction,5.8,Dodge Chance,9.3,Ranks Frost Nova,3.0,Movement Speed,16.0,382.0,20.0
+Boots,763,96,Mana Cost Reduction,5.8,Dodge Chance,9.3,Movement Speed,16.0,Ranks Frost Nova,3.0,382.0,20.0
+Boots,763,96,Mana Cost Reduction,5.8,Movement Speed,16.0,Ranks Frost Nova,3.0,Dodge Chance,9.3,382.0,20.0
+Boots,763,96,Mana Cost Reduction,5.8,Movement Speed,16.0,Dodge Chance,9.3,Ranks Frost Nova,3.0,382.0,20.0
+Ring,769,82,Crackling Damage,11.0,Vulnerable Damage,22.5,Resource Generation,5.5,Critical Strike Chance,5.0,769.0,10.0
+Ring,769,82,Crackling Damage,11.0,Vulnerable Damage,22.5,Critical Strike Chance,5.0,Resource Generation,5.5,769.0,10.0
+Ring,769,82,Crackling Damage,11.0,Resource Generation,5.5,Vulnerable Damage,22.5,Critical Strike Chance,5.0,769.0,10.0
+Ring,769,82,Crackling Damage,11.0,Resource Generation,5.5,Critical Strike Chance,5.0,Vulnerable Damage,22.5,769.0,10.0
+Ring,769,82,Crackling Damage,11.0,Critical Strike Chance,5.0,Vulnerable Damage,22.5,Resource Generation,5.5,769.0,10.0
+Ring,769,82,Crackling Damage,11.0,Critical Strike Chance,5.0,Resource Generation,5.5,Vulnerable Damage,22.5,769.0,10.0
+Ring,769,82,Vulnerable Damage,22.5,Crackling Damage,11.0,Resource Generation,5.5,Critical Strike Chance,5.0,769.0,10.0
+Ring,769,82,Vulnerable Damage,22.5,Crackling Damage,11.0,Critical Strike Chance,5.0,Resource Generation,5.5,769.0,10.0
+Ring,769,82,Vulnerable Damage,22.5,Resource Generation,5.5,Crackling Damage,11.0,Critical Strike Chance,5.0,769.0,10.0
+Ring,769,82,Vulnerable Damage,22.5,Resource Generation,5.5,Critical Strike Chance,5.0,Crackling Damage,11.0,769.0,10.0
+Ring,769,82,Vulnerable Damage,22.5,Critical Strike Chance,5.0,Crackling Damage,11.0,Resource Generation,5.5,769.0,10.0
+Ring,769,82,Vulnerable Damage,22.5,Critical Strike Chance,5.0,Resource Generation,5.5,Crackling Damage,11.0,769.0,10.0
+Ring,769,82,Resource Generation,5.5,Crackling Damage,11.0,Vulnerable Damage,22.5,Critical Strike Chance,5.0,769.0,10.0
+Ring,769,82,Resource Generation,5.5,Crackling Damage,11.0,Critical Strike Chance,5.0,Vulnerable Damage,22.5,769.0,10.0
+Ring,769,82,Resource Generation,5.5,Vulnerable Damage,22.5,Crackling Damage,11.0,Critical Strike Chance,5.0,769.0,10.0
+Ring,769,82,Resource Generation,5.5,Vulnerable Damage,22.5,Critical Strike Chance,5.0,Crackling Damage,11.0,769.0,10.0
+Ring,769,82,Resource Generation,5.5,Critical Strike Chance,5.0,Crackling Damage,11.0,Vulnerable Damage,22.5,769.0,10.0
+Ring,769,82,Resource Generation,5.5,Critical Strike Chance,5.0,Vulnerable Damage,22.5,Crackling Damage,11.0,769.0,10.0
+Ring,769,82,Critical Strike Chance,5.0,Crackling Damage,11.0,Vulnerable Damage,22.5,Resource Generation,5.5,769.0,10.0
+Ring,769,82,Critical Strike Chance,5.0,Crackling Damage,11.0,Resource Generation,5.5,Vulnerable Damage,22.5,769.0,10.0
+Ring,769,82,Critical Strike Chance,5.0,Vulnerable Damage,22.5,Crackling Damage,11.0,Resource Generation,5.5,769.0,10.0
+Ring,769,82,Critical Strike Chance,5.0,Vulnerable Damage,22.5,Resource Generation,5.5,Crackling Damage,11.0,769.0,10.0
+Ring,769,82,Critical Strike Chance,5.0,Resource Generation,5.5,Crackling Damage,11.0,Vulnerable Damage,22.5,769.0,10.0
+Ring,769,82,Critical Strike Chance,5.0,Resource Generation,5.5,Vulnerable Damage,22.5,Crackling Damage,11.0,769.0,10.0
+Focus,805,98,Resource Generation,9.5,Mana Cost Reduction,4.6,Cooldown Reduction,8.8,Barrier Generation,11.5,1171.0,20.0
+Focus,805,98,Resource Generation,9.5,Mana Cost Reduction,4.6,Barrier Generation,11.5,Cooldown Reduction,8.8,1171.0,20.0
+Focus,805,98,Resource Generation,9.5,Cooldown Reduction,8.8,Mana Cost Reduction,4.6,Barrier Generation,11.5,1171.0,20.0
+Focus,805,98,Resource Generation,9.5,Cooldown Reduction,8.8,Barrier Generation,11.5,Mana Cost Reduction,4.6,1171.0,20.0
+Focus,805,98,Resource Generation,9.5,Barrier Generation,11.5,Mana Cost Reduction,4.6,Cooldown Reduction,8.8,1171.0,20.0
+Focus,805,98,Resource Generation,9.5,Barrier Generation,11.5,Cooldown Reduction,8.8,Mana Cost Reduction,4.6,1171.0,20.0
+Focus,805,98,Mana Cost Reduction,4.6,Resource Generation,9.5,Cooldown Reduction,8.8,Barrier Generation,11.5,1171.0,20.0
+Focus,805,98,Mana Cost Reduction,4.6,Resource Generation,9.5,Barrier Generation,11.5,Cooldown Reduction,8.8,1171.0,20.0
+Focus,805,98,Mana Cost Reduction,4.6,Cooldown Reduction,8.8,Resource Generation,9.5,Barrier Generation,11.5,1171.0,20.0
+Focus,805,98,Mana Cost Reduction,4.6,Cooldown Reduction,8.8,Barrier Generation,11.5,Resource Generation,9.5,1171.0,20.0
+Focus,805,98,Mana Cost Reduction,4.6,Barrier Generation,11.5,Resource Generation,9.5,Cooldown Reduction,8.8,1171.0,20.0
+Focus,805,98,Mana Cost Reduction,4.6,Barrier Generation,11.5,Cooldown Reduction,8.8,Resource Generation,9.5,1171.0,20.0
+Focus,805,98,Cooldown Reduction,8.8,Resource Generation,9.5,Mana Cost Reduction,4.6,Barrier Generation,11.5,1171.0,20.0
+Focus,805,98,Cooldown Reduction,8.8,Resource Generation,9.5,Barrier Generation,11.5,Mana Cost Reduction,4.6,1171.0,20.0
+Focus,805,98,Cooldown Reduction,8.8,Mana Cost Reduction,4.6,Resource Generation,9.5,Barrier Generation,11.5,1171.0,20.0
+Focus,805,98,Cooldown Reduction,8.8,Mana Cost Reduction,4.6,Barrier Generation,11.5,Resource Generation,9.5,1171.0,20.0
+Focus,805,98,Cooldown Reduction,8.8,Barrier Generation,11.5,Resource Generation,9.5,Mana Cost Reduction,4.6,1171.0,20.0
+Focus,805,98,Cooldown Reduction,8.8,Barrier Generation,11.5,Mana Cost Reduction,4.6,Resource Generation,9.5,1171.0,20.0
+Focus,805,98,Barrier Generation,11.5,Resource Generation,9.5,Mana Cost Reduction,4.6,Cooldown Reduction,8.8,1171.0,20.0
+Focus,805,98,Barrier Generation,11.5,Resource Generation,9.5,Cooldown Reduction,8.8,Mana Cost Reduction,4.6,1171.0,20.0
+Focus,805,98,Barrier Generation,11.5,Mana Cost Reduction,4.6,Resource Generation,9.5,Cooldown Reduction,8.8,1171.0,20.0
+Focus,805,98,Barrier Generation,11.5,Mana Cost Reduction,4.6,Cooldown Reduction,8.8,Resource Generation,9.5,1171.0,20.0
+Focus,805,98,Barrier Generation,11.5,Cooldown Reduction,8.8,Resource Generation,9.5,Mana Cost Reduction,4.6,1171.0,20.0
+Focus,805,98,Barrier Generation,11.5,Cooldown Reduction,8.8,Mana Cost Reduction,4.6,Resource Generation,9.5,1171.0,20.0
+Focus,809,97,Mana Cost Reduction,4.4,CC Duration,8.0,Lucky Hit Barrier,6.8,Critical Strike Chance,5.0,1190.0,20.0
+Focus,809,97,Mana Cost Reduction,4.4,CC Duration,8.0,Critical Strike Chance,5.0,Lucky Hit Barrier,6.8,1190.0,20.0
+Focus,809,97,Mana Cost Reduction,4.4,Lucky Hit Barrier,6.8,CC Duration,8.0,Critical Strike Chance,5.0,1190.0,20.0
+Focus,809,97,Mana Cost Reduction,4.4,Lucky Hit Barrier,6.8,Critical Strike Chance,5.0,CC Duration,8.0,1190.0,20.0
+Focus,809,97,Mana Cost Reduction,4.4,Critical Strike Chance,5.0,CC Duration,8.0,Lucky Hit Barrier,6.8,1190.0,20.0
+Focus,809,97,Mana Cost Reduction,4.4,Critical Strike Chance,5.0,Lucky Hit Barrier,6.8,CC Duration,8.0,1190.0,20.0
+Focus,809,97,CC Duration,8.0,Mana Cost Reduction,4.4,Lucky Hit Barrier,6.8,Critical Strike Chance,5.0,1190.0,20.0
+Focus,809,97,CC Duration,8.0,Mana Cost Reduction,4.4,Critical Strike Chance,5.0,Lucky Hit Barrier,6.8,1190.0,20.0
+Focus,809,97,CC Duration,8.0,Lucky Hit Barrier,6.8,Mana Cost Reduction,4.4,Critical Strike Chance,5.0,1190.0,20.0
+Focus,809,97,CC Duration,8.0,Lucky Hit Barrier,6.8,Critical Strike Chance,5.0,Mana Cost Reduction,4.4,1190.0,20.0
+Focus,809,97,CC Duration,8.0,Critical Strike Chance,5.0,Mana Cost Reduction,4.4,Lucky Hit Barrier,6.8,1190.0,20.0
+Focus,809,97,CC Duration,8.0,Critical Strike Chance,5.0,Lucky Hit Barrier,6.8,Mana Cost Reduction,4.4,1190.0,20.0
+Focus,809,97,Lucky Hit Barrier,6.8,Mana Cost Reduction,4.4,CC Duration,8.0,Critical Strike Chance,5.0,1190.0,20.0
+Focus,809,97,Lucky Hit Barrier,6.8,Mana Cost Reduction,4.4,Critical Strike Chance,5.0,CC Duration,8.0,1190.0,20.0
+Focus,809,97,Lucky Hit Barrier,6.8,CC Duration,8.0,Mana Cost Reduction,4.4,Critical Strike Chance,5.0,1190.0,20.0
+Focus,809,97,Lucky Hit Barrier,6.8,CC Duration,8.0,Critical Strike Chance,5.0,Mana Cost Reduction,4.4,1190.0,20.0
+Focus,809,97,Lucky Hit Barrier,6.8,Critical Strike Chance,5.0,Mana Cost Reduction,4.4,CC Duration,8.0,1190.0,20.0
+Focus,809,97,Lucky Hit Barrier,6.8,Critical Strike Chance,5.0,CC Duration,8.0,Mana Cost Reduction,4.4,1190.0,20.0
+Focus,809,97,Critical Strike Chance,5.0,Mana Cost Reduction,4.4,CC Duration,8.0,Lucky Hit Barrier,6.8,1190.0,20.0
+Focus,809,97,Critical Strike Chance,5.0,Mana Cost Reduction,4.4,Lucky Hit Barrier,6.8,CC Duration,8.0,1190.0,20.0
+Focus,809,97,Critical Strike Chance,5.0,CC Duration,8.0,Mana Cost Reduction,4.4,Lucky Hit Barrier,6.8,1190.0,20.0
+Focus,809,97,Critical Strike Chance,5.0,CC Duration,8.0,Lucky Hit Barrier,6.8,Mana Cost Reduction,4.4,1190.0,20.0
+Focus,809,97,Critical Strike Chance,5.0,Lucky Hit Barrier,6.8,Mana Cost Reduction,4.4,CC Duration,8.0,1190.0,20.0
+Focus,809,97,Critical Strike Chance,5.0,Lucky Hit Barrier,6.8,CC Duration,8.0,Mana Cost Reduction,4.4,1190.0,20.0
